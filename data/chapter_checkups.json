@@ -1,0 +1,730 @@
+[
+ {
+  "id": "cu1-q1",
+  "chapter": 1,
+  "n": 1,
+  "type": "multiple choice",
+  "q": "Which UK Act forms the legal foundation for all workplace health and safety law?",
+  "options": {
+   "A": "CDM 2015",
+   "B": "RIDDOR 2013",
+   "C": "Health and Safety at Work etc. Act 1974",
+   "D": "Management of Health and Safety at Work Regulations 1999"
+  },
+  "answer": "C — Health and Safety at Work etc. Act 1974."
+ },
+ {
+  "id": "cu1-q2",
+  "chapter": 1,
+  "n": 2,
+  "type": "fill in the gap",
+  "q": "An HSE ______ Notice stops a dangerous activity immediately.",
+  "options": {},
+  "answer": "Prohibition."
+ },
+ {
+  "id": "cu1-q3",
+  "chapter": 1,
+  "n": 3,
+  "type": "open-ended",
+  "q": "Name one legal duty a worker holds under Section 7 of the Health and Safety at Work Act.",
+  "options": {},
+  "answer": "To take reasonable care of their own health and safety and that of others affected by their actions (or to cooperate with their employer on safety matters)."
+ },
+ {
+  "id": "cu1-q4",
+  "chapter": 1,
+  "n": 4,
+  "type": "true or false",
+  "q": "A Principal Contractor is only required under CDM 2015 when more than one contractor is involved on a project.",
+  "options": {},
+  "answer": "True."
+ },
+ {
+  "id": "cu1-q5",
+  "chapter": 1,
+  "n": 5,
+  "type": "multiple choice",
+  "q": "Which of the following must happen before a worker starts work on a new site?",
+  "options": {
+   "A": "Annual policy review",
+   "B": "Permit to work",
+   "C": "Toolbox talk",
+   "D": "Site induction"
+  },
+  "answer": "D — Site induction."
+ },
+ {
+  "id": "cu1-q6",
+  "chapter": 1,
+  "n": 6,
+  "type": "fill in the gap",
+  "q": "Appealing a Prohibition Notice does ______ suspend its effect.",
+  "options": {},
+  "answer": "Not."
+ },
+ {
+  "id": "cu1-q7",
+  "chapter": 1,
+  "n": 7,
+  "type": "open-ended",
+  "q": "Under Section 37 of the Health and Safety at Work Act, who besides the company can be personally prosecuted for a serious breach?",
+  "options": {},
+  "answer": "Individual directors or managers."
+ },
+ {
+  "id": "cu2-q1",
+  "chapter": 2,
+  "n": 1,
+  "type": "multiple choice",
+  "q": "What is the first step in the hierarchy of control measures?",
+  "options": {
+   "A": "Substitute",
+   "B": "Use PPE",
+   "C": "Eliminate the hazard",
+   "D": "Apply administrative controls"
+  },
+  "answer": "C — Eliminate the hazard."
+ },
+ {
+  "id": "cu2-q2",
+  "chapter": 2,
+  "n": 2,
+  "type": "fill in the gap",
+  "q": "A risk assessment must be reviewed whenever site ______ change.",
+  "options": {},
+  "answer": "Conditions."
+ },
+ {
+  "id": "cu2-q3",
+  "chapter": 2,
+  "n": 3,
+  "type": "open-ended",
+  "q": "What is the difference between a hazard and a risk?",
+  "options": {},
+  "answer": "A hazard is anything with the potential to cause harm; a risk is the likelihood of that harm happening, combined with how severe it would be."
+ },
+ {
+  "id": "cu2-q4",
+  "chapter": 2,
+  "n": 4,
+  "type": "true or false",
+  "q": "A method statement can be reused without changes for a similar task on a different site.",
+  "options": {},
+  "answer": "False — it must be specific to the actual task and site conditions."
+ },
+ {
+  "id": "cu2-q5",
+  "chapter": 2,
+  "n": 5,
+  "type": "multiple choice",
+  "q": "Which HSE step comes immediately after \"identify the hazards\"?",
+  "options": {
+   "A": "Decide who might be harmed and how",
+   "B": "Record the findings",
+   "C": "Evaluate the risks",
+   "D": "Review and update"
+  },
+  "answer": "A — Decide who might be harmed and how."
+ },
+ {
+  "id": "cu2-q6",
+  "chapter": 2,
+  "n": 6,
+  "type": "fill in the gap",
+  "q": "PPE is considered the ______ resort in the hierarchy of control.",
+  "options": {},
+  "answer": "Last."
+ },
+ {
+  "id": "cu2-q7",
+  "chapter": 2,
+  "n": 7,
+  "type": "open-ended",
+  "q": "What should a worker do if they spot a new hazard partway through a task that wasn't in the original risk assessment?",
+  "options": {},
+  "answer": "Report it immediately, so the risk assessment can be reviewed and updated before work continues."
+ },
+ {
+  "id": "cu3-q1",
+  "chapter": 3,
+  "n": 1,
+  "type": "multiple choice",
+  "q": "Under RIDDOR, how soon must a death at work be reported to HSE?",
+  "options": {
+   "A": "Within 15 days",
+   "B": "Within 28 days",
+   "C": "Within 7 days",
+   "D": "Without delay"
+  },
+  "answer": "D — Without delay."
+ },
+ {
+  "id": "cu3-q2",
+  "chapter": 3,
+  "n": 2,
+  "type": "fill in the gap",
+  "q": "An over-7-day injury must be reported within ______ days of the accident.",
+  "options": {},
+  "answer": "15."
+ },
+ {
+  "id": "cu3-q3",
+  "chapter": 3,
+  "n": 3,
+  "type": "open-ended",
+  "q": "What is a near miss, and why should it still be reported even though no one was harmed?",
+  "options": {},
+  "answer": "A near miss is an event where no one was harmed but easily could have been; it should be reported because it reveals the same gap in control an accident would, before someone is actually hurt."
+ },
+ {
+  "id": "cu3-q4",
+  "chapter": 3,
+  "n": 4,
+  "type": "true or false",
+  "q": "A dry powder extinguisher is safe to use on an electrical fire above 1000 volts.",
+  "options": {},
+  "answer": "False — dry powder is only safe on electrical fires up to 1000V, not above it."
+ },
+ {
+  "id": "cu3-q5",
+  "chapter": 3,
+  "n": 5,
+  "type": "multiple choice",
+  "q": "Which colour label identifies a CO2 extinguisher?",
+  "options": {
+   "A": "Cream",
+   "B": "Black",
+   "C": "Yellow",
+   "D": "Blue"
+  },
+  "answer": "B — Black."
+ },
+ {
+  "id": "cu3-q6",
+  "chapter": 3,
+  "n": 6,
+  "type": "fill in the gap",
+  "q": "The three elements of the fire triangle are heat, fuel, and ______.",
+  "options": {},
+  "answer": "Oxygen."
+ },
+ {
+  "id": "cu3-q7",
+  "chapter": 3,
+  "n": 7,
+  "type": "open-ended",
+  "q": "What is the first thing a worker should do when a fire alarm sounds?",
+  "options": {},
+  "answer": "Stop work immediately and proceed via the nearest safe route to the designated assembly point."
+ },
+ {
+  "id": "cu4-q1",
+  "chapter": 4,
+  "n": 1,
+  "type": "multiple choice",
+  "q": "Which regulations specifically require employers to assess and control exposure to substances hazardous to health? A) COSHH 2002",
+  "options": {
+   "B": "RIDDOR 2013",
+   "C": "CDM 2015",
+   "D": "Manual Handling Operations Regulations 1992"
+  },
+  "answer": "A — COSHH 2002."
+ },
+ {
+  "id": "cu4-q2",
+  "chapter": 4,
+  "n": 2,
+  "type": "fill in the gap",
+  "q": "The workplace exposure limit for respirable crystalline silica is ______ mg/m³ as an 8-hour time-weighted average.",
+  "options": {},
+  "answer": "0.1."
+ },
+ {
+  "id": "cu4-q3",
+  "chapter": 4,
+  "n": 3,
+  "type": "open-ended",
+  "q": "What should a worker do if they suspect they've uncovered asbestos-containing material?",
+  "options": {},
+  "answer": "Stop work immediately, avoid disturbing the material further, and report it so it can be properly identified before work continues."
+ },
+ {
+  "id": "cu4-q4",
+  "chapter": 4,
+  "n": 4,
+  "type": "true or false",
+  "q": "Tight-fitting RPE can still protect a worker effectively even if they have facial hair along the seal line.",
+  "options": {},
+  "answer": "False — facial hair along the seal line breaks the seal and compromises protection, regardless of the mask's rating."
+ },
+ {
+  "id": "cu4-q5",
+  "chapter": 4,
+  "n": 5,
+  "type": "multiple choice",
+  "q": "At what noise level does hearing protection become mandatory under the Control of Noise at Work Regulations 2005?",
+  "options": {
+   "A": "75 dB(A)",
+   "B": "80 dB(A)",
+   "C": "85 dB(A)",
+   "D": "90 dB(A)"
+  },
+  "answer": "C — 85 dB(A)."
+ },
+ {
+  "id": "cu4-q6",
+  "chapter": 4,
+  "n": 6,
+  "type": "fill in the gap",
+  "q": "The exposure limit value for hand-arm vibration is ______ m/s² A(8).",
+  "options": {},
+  "answer": "5.0."
+ },
+ {
+  "id": "cu4-q7",
+  "chapter": 4,
+  "n": 7,
+  "type": "open-ended",
+  "q": "What does the \"L\" in the TILE manual handling framework stand for, and what does it cover?",
+  "options": {},
+  "answer": "Load — the weight, size, shape, and stability of the object being handled, including whether its contents could shift."
+ },
+ {
+  "id": "cu5-q1",
+  "chapter": 5,
+  "n": 1,
+  "type": "multiple choice",
+  "q": "Under CDM 2015 Schedule 2, which facility may specifically be required because of a hazard such as cement contact?",
+  "options": {
+   "A": "Vending machine",
+   "B": "Showers",
+   "C": "Noticeboard",
+   "D": "Staff canteen"
+  },
+  "answer": "B — Showers."
+ },
+ {
+  "id": "cu5-q2",
+  "chapter": 5,
+  "n": 2,
+  "type": "fill in the gap",
+  "q": "A worker whose prescription medication affects their ability to work safely has a duty to ______ this to their employer.",
+  "options": {},
+  "answer": "Disclose (or report)."
+ },
+ {
+  "id": "cu5-q3",
+  "chapter": 5,
+  "n": 3,
+  "type": "open-ended",
+  "q": "Why is prolonged skin contact with wet cement a serious hazard, not just a minor irritation?",
+  "options": {},
+  "answer": "Wet cement is highly alkaline, and prolonged contact can cause genuine chemical burns, not just dryness or irritation."
+ },
+ {
+  "id": "cu5-q4",
+  "chapter": 5,
+  "n": 4,
+  "type": "true or false",
+  "q": "Mental health is covered by the same general duty of care an employer owes for physical health and safety.",
+  "options": {},
+  "answer": "True."
+ },
+ {
+  "id": "cu5-q5",
+  "chapter": 5,
+  "n": 5,
+  "type": "multiple choice",
+  "q": "What is the correct immediate response if a worker shows confusion or collapses in hot conditions on site?",
+  "options": {
+   "A": "Give them a hot drink and continue working",
+   "B": "Wait until the end of the shift to report it",
+   "C": "Encourage them to keep moving to stay alert",
+   "D": "Treat it as a medical emergency and seek help immediately"
+  },
+  "answer": "D — Treat it as a medical emergency and seek help immediately."
+ },
+ {
+  "id": "cu5-q6",
+  "chapter": 5,
+  "n": 6,
+  "type": "fill in the gap",
+  "q": "Cement's hazard to skin comes from its high ______, which can cause chemical burns on prolonged contact.",
+  "options": {},
+  "answer": "Alkalinity."
+ },
+ {
+  "id": "cu5-q7",
+  "chapter": 5,
+  "n": 7,
+  "type": "open-ended",
+  "q": "What should a worker do if they believe a colleague may be unfit for work due to substance use or impairment?",
+  "options": {},
+  "answer": "Report it to a supervisor rather than ignoring it, since an impaired colleague is a safety risk to themselves and everyone working around them."
+ },
+ {
+  "id": "cu6-q1",
+  "chapter": 6,
+  "n": 1,
+  "type": "multiple choice",
+  "q": "Who is responsible for paying for PPE provided to protect against a workplace risk?",
+  "options": {
+   "A": "The worker, through a payroll deduction",
+   "B": "Shared equally between the worker and the employer",
+   "C": "The Health and Safety Executive",
+   "D": "The employer, free of charge"
+  },
+  "answer": "D — The employer, free of charge."
+ },
+ {
+  "id": "cu6-q2",
+  "chapter": 6,
+  "n": 2,
+  "type": "fill in the gap",
+  "q": "PPE sits at the ______ of the hierarchy of control, used only once other measures cannot remove the risk.",
+  "options": {},
+  "answer": "Bottom (last resort)."
+ },
+ {
+  "id": "cu6-q3",
+  "chapter": 6,
+  "n": 3,
+  "type": "open-ended",
+  "q": "Why might a worker with a beard along the mask seal line need to be refit tested or issued different RPE?",
+  "options": {},
+  "answer": "Facial hair along the seal line breaks the mask's seal against the skin, letting contaminated air in, so the worker needs a refit test on a different mask or RPE that doesn't rely on a tight seal, such as a powered respirator."
+ },
+ {
+  "id": "cu6-q4",
+  "chapter": 6,
+  "n": 4,
+  "type": "true or false",
+  "q": "Earmuffs and earplugs should always be worn together for maximum hearing protection.",
+  "options": {},
+  "answer": "False — combining them is only used where a risk assessment shows a single type isn't enough; over-protecting by default can isolate a worker from alarms and warnings."
+ },
+ {
+  "id": "cu6-q5",
+  "chapter": 6,
+  "n": 5,
+  "type": "multiple choice",
+  "q": "What shape is used for a mandatory safety sign, such as one reading 'Wear eye protection'?",
+  "options": {
+   "A": "Circle",
+   "B": "Triangle",
+   "C": "Square",
+   "D": "Rectangle"
+  },
+  "answer": "A — Circle."
+ },
+ {
+  "id": "cu6-q6",
+  "chapter": 6,
+  "n": 6,
+  "type": "fill in the gap",
+  "q": "A red circle with a diagonal line through a black symbol is a ______ sign.",
+  "options": {},
+  "answer": "Prohibition."
+ },
+ {
+  "id": "cu6-q7",
+  "chapter": 6,
+  "n": 7,
+  "type": "open-ended",
+  "q": "Why is a safety sign's shape as important as its colour?",
+  "options": {},
+  "answer": "Shape lets a colour-blind worker, or one working in poor light, still recognise a sign's meaning from its outline alone, without depending on seeing colour correctly."
+ },
+ {
+  "id": "cu7-q1",
+  "chapter": 7,
+  "n": 1,
+  "type": "multiple choice",
+  "q": "Under the Work at Height Regulations 2005, what should be considered first when planning a task at height?",
+  "options": {
+   "A": "A fall arrest harness",
+   "B": "Avoiding the work at height altogether",
+   "C": "Scaffolding guardrails",
+   "D": "Safety nets"
+  },
+  "answer": "B — Avoiding the work at height altogether."
+ },
+ {
+  "id": "cu7-q2",
+  "chapter": 7,
+  "n": 2,
+  "type": "fill in the gap",
+  "q": "A leaning ladder should be set so the base sits one unit from the wall for every ______ units of working height (the 1 in 4 rule).",
+  "options": {},
+  "answer": "Four."
+ },
+ {
+  "id": "cu7-q3",
+  "chapter": 7,
+  "n": 3,
+  "type": "open-ended",
+  "q": "Why does a scaffold need a competent person to inspect it every 7 days, not just once when it's first erected?",
+  "options": {},
+  "answer": "Conditions such as weather, ground movement, or site activity can cause a scaffold to deteriorate or be altered after erection, so regular reinspection confirms it's still safe to use, with extra checks after events like storms or substantial alteration."
+ },
+ {
+  "id": "cu7-q4",
+  "chapter": 7,
+  "n": 4,
+  "type": "true or false",
+  "q": "A fall restraint system and a fall arrest system do the same job.",
+  "options": {},
+  "answer": "False — restraint physically prevents a worker from reaching a fall hazard at all, while arrest only catches a worker after a fall has already begun, and needs a rescue plan because of the risk of suspension trauma."
+ },
+ {
+  "id": "cu7-q5",
+  "chapter": 7,
+  "n": 5,
+  "type": "multiple choice",
+  "q": "Which method of preventing a leaning ladder from slipping is used only as a last resort?",
+  "options": {
+   "A": "Tying both stiles to a suitable point",
+   "B": "Using a proprietary stability device",
+   "C": "Footing the ladder",
+   "D": "Wedging the base of the ladder"
+  },
+  "answer": "C — Footing the ladder."
+ },
+ {
+  "id": "cu7-q6",
+  "chapter": 7,
+  "n": 6,
+  "type": "fill in the gap",
+  "q": "The top guardrail on a construction working platform must be at least ______ millimetres above the platform.",
+  "options": {},
+  "answer": "950."
+ },
+ {
+  "id": "cu7-q7",
+  "chapter": 7,
+  "n": 7,
+  "type": "open-ended",
+  "q": "Why should a worker never step directly onto a fragile roof surface, even if it looks solid?",
+  "options": {},
+  "answer": "Fragile roofing material can give way suddenly without warning regardless of its appearance, so access should use crawling boards or staging that spread the load, combined with edge protection, nets, or a harness system."
+ },
+ {
+  "id": "cu8-q1",
+  "chapter": 8,
+  "n": 1,
+  "type": "multiple choice",
+  "q": "How often must a competent person inspect an excavation while work is ongoing?",
+  "options": {
+   "A": "At the start of every shift, and after any event that could affect stability",
+   "B": "Once a week",
+   "C": "Only before the excavation is backfilled",
+   "D": "Only if a worker reports a concern"
+  },
+  "answer": "A — At the start of every shift, and after any event that could affect stability."
+ },
+ {
+  "id": "cu8-q2",
+  "chapter": 8,
+  "n": 2,
+  "type": "fill in the gap",
+  "q": "Before any excavation work begins, the site must identify the location of ______ services to avoid striking them.",
+  "options": {},
+  "answer": "Underground."
+ },
+ {
+  "id": "cu8-q3",
+  "chapter": 8,
+  "n": 3,
+  "type": "open-ended",
+  "q": "Why must oxygen never be used to 'sweeten' the air in a confined space before entry?",
+  "options": {},
+  "answer": "Adding oxygen raises its concentration well above normal, which sharply increases the risk of fire or explosion rather than making the space safer to breathe."
+ },
+ {
+  "id": "cu8-q4",
+  "chapter": 8,
+  "n": 4,
+  "type": "true or false",
+  "q": "A confined space permit-to-work and rescue arrangements only need to be set up after a worker has entered and started work.",
+  "options": {},
+  "answer": "False — the permit-to-work and rescue arrangements, including a lifeline, communication, a standby person, and trained rescuers, must all be in place and confirmed before anyone enters, not arranged afterward."
+ },
+ {
+  "id": "cu8-q5",
+  "chapter": 8,
+  "n": 5,
+  "type": "multiple choice",
+  "q": "What colour are 110V reduced-voltage plugs and connectors used on UK construction sites?",
+  "options": {
+   "A": "Red",
+   "B": "Yellow",
+   "C": "Blue",
+   "D": "Green"
+  },
+  "answer": "B — Yellow."
+ },
+ {
+  "id": "cu8-q6",
+  "chapter": 8,
+  "n": 6,
+  "type": "fill in the gap",
+  "q": "On a 110V reduced-voltage supply, the transformer's centre point is earthed so each live conductor is only around ______ volts to earth.",
+  "options": {},
+  "answer": "55."
+ },
+ {
+  "id": "cu8-q7",
+  "chapter": 8,
+  "n": 7,
+  "type": "open-ended",
+  "q": "Why is battery-powered equipment preferred over 110V or 230V corded tools wherever practical on site?",
+  "options": {},
+  "answer": "It removes the risk of electric shock from a cable or connection entirely, sitting above both 110V and 230V corded options in the hierarchy of electrical safety controls, which is why it's preferred wherever the task allows it."
+ },
+ {
+  "id": "cu9-q1",
+  "chapter": 9,
+  "n": 1,
+  "type": "multiple choice",
+  "q": "What is the most effective way to reduce the risk from reversing vehicles on a construction site?",
+  "options": {
+   "A": "Fit extra reversing alarms",
+   "B": "Use an experienced banksman for every reversing manoeuvre",
+   "C": "Increase the site speed limit",
+   "D": "Remove the need to reverse altogether, For example with a one-way system"
+  },
+  "answer": "D — Remove the need to reverse altogether, For example with a one-way system."
+ },
+ {
+  "id": "cu9-q2",
+  "chapter": 9,
+  "n": 2,
+  "type": "fill in the gap",
+  "q": "A driver or crane operator must ______ immediately if they lose sight of the banksman or signaller directing them.",
+  "options": {},
+  "answer": "Stop."
+ },
+ {
+  "id": "cu9-q3",
+  "chapter": 9,
+  "n": 3,
+  "type": "open-ended",
+  "q": "Why must the appointed person planning a lifting operation have knowledge and expertise specific to that type of lift, not just general lifting experience?",
+  "options": {},
+  "answer": "Different lifts carry different risks from load geometry, surroundings, and equipment, so a plan only properly controls those risks if the person planning it understands the specific lift being carried out, not lifting in general."
+ },
+ {
+  "id": "cu9-q4",
+  "chapter": 9,
+  "n": 4,
+  "type": "true or false",
+  "q": "All lifting equipment must be thoroughly examined every 12 months, with no exceptions.",
+  "options": {},
+  "answer": "False — equipment used to lift people and lifting accessories such as slings must be examined every 6 months, and a written examination scheme by a competent person can set different intervals."
+ },
+ {
+  "id": "cu9-q5",
+  "chapter": 9,
+  "n": 5,
+  "type": "multiple choice",
+  "q": "Under LOLER, how often must lifting equipment used to lift people, or lifting accessories such as slings, be thoroughly examined, where no written scheme states otherwise?",
+  "options": {
+   "A": "Every 24 months",
+   "B": "Every 3 months",
+   "C": "Every 6 months",
+   "D": "Every 12 months"
+  },
+  "answer": "C — Every 6 months."
+ },
+ {
+  "id": "cu9-q6",
+  "chapter": 9,
+  "n": 6,
+  "type": "fill in the gap",
+  "q": "Before operating any plant or vehicle, an operator must complete and sign off a ______ check at the start of each shift.",
+  "options": {},
+  "answer": "Pre-use (daily)."
+ },
+ {
+  "id": "cu9-q7",
+  "chapter": 9,
+  "n": 7,
+  "type": "open-ended",
+  "q": "Why is separating pedestrians and vehicles with distinct routes considered more effective than relying on a banksman?",
+  "options": {},
+  "answer": "Segregation removes the opportunity for a pedestrian and a vehicle to be in the same space at all, so it doesn't depend on a person's attention, communication, or correct positioning the way relying on a banksman does."
+ },
+ {
+  "id": "cu10-q1",
+  "chapter": 10,
+  "n": 1,
+  "type": "multiple choice",
+  "q": "Under the waste hierarchy, which option should always be considered first, before any other? A) Recycling",
+  "options": {
+   "B": "Energy recovery",
+   "C": "Prevention or reduction of waste",
+   "D": "Disposal to landfill"
+  },
+  "answer": "C — Prevention or reduction of waste."
+ },
+ {
+  "id": "cu10-q2",
+  "chapter": 10,
+  "n": 2,
+  "type": "fill in the gap",
+  "q": "Transferring hazardous waste off site requires a hazardous waste ______ note, in addition to the standard waste transfer note.",
+  "options": {},
+  "answer": "Consignment."
+ },
+ {
+  "id": "cu10-q3",
+  "chapter": 10,
+  "n": 3,
+  "type": "open-ended",
+  "q": "Why must rainwater collecting in a bund never be allowed to build up unchecked?",
+  "options": {},
+  "answer": "It reduces the bund's spare capacity to contain a spill, and if it needs removing, it may itself count as contaminated waste requiring proper disposal."
+ },
+ {
+  "id": "cu10-q4",
+  "chapter": 10,
+  "n": 4,
+  "type": "true or false",
+  "q": "There is a single fixed 'safe' date each year after which vegetation can be cleared without needing to check for nesting birds.",
+  "options": {},
+  "answer": "False — the main UK breeding season runs roughly March to August but varies with weather and species, so a pre-clearance check is needed regardless of the calendar date, not a fixed safe date."
+ },
+ {
+  "id": "cu10-q5",
+  "chapter": 10,
+  "n": 5,
+  "type": "multiple choice",
+  "q": "What capacity must a bund around a fuel storage tank provide, relative to the largest container stored within it?",
+  "options": {
+   "A": "50%",
+   "B": "110%",
+   "C": "75%",
+   "D": "100%"
+  },
+  "answer": "B — 110%."
+ },
+ {
+  "id": "cu10-q6",
+  "chapter": 10,
+  "n": 6,
+  "type": "fill in the gap",
+  "q": "Controlling dust and noise so they don't disturb neighbouring properties is an environmental ______ duty, separate from protecting workers' own health.",
+  "options": {},
+  "answer": "Nuisance."
+ },
+ {
+  "id": "cu10-q7",
+  "chapter": 10,
+  "n": 7,
+  "type": "open-ended",
+  "q": "Why does a construction company still have a duty of care for its waste once a skip has left the site?",
+  "options": {},
+  "answer": "Under the Environmental Protection Act 1990, the duty of care requires the waste producer to ensure their waste is passed only to an authorised person and properly documented, so responsibility doesn't end the moment the skip leaves site."
+ }
+]

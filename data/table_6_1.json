@@ -1,0 +1,35 @@
+{
+ "title": "Table 6.1 — UK safety sign categories, shapes, and colours",
+ "rows": [
+  {
+   "category": "Prohibition",
+   "shape": "Circle",
+   "colour": "Red border and line, white background, black symbol",
+   "example": "No smoking"
+  },
+  {
+   "category": "Warning",
+   "shape": "Triangle",
+   "colour": "Yellow background, black border and symbol",
+   "example": "Forklift trucks operating"
+  },
+  {
+   "category": "Mandatory",
+   "shape": "Circle",
+   "colour": "Blue background, white symbol",
+   "example": "Wear eye protection"
+  },
+  {
+   "category": "Safe condition",
+   "shape": "Square / rectangle",
+   "colour": "Green background, white symbol",
+   "example": "Emergency exit"
+  },
+  {
+   "category": "Fire equipment",
+   "shape": "Square / rectangle",
+   "colour": "Red background, white symbol",
+   "example": "Fire extinguisher location"
+  }
+ ]
+}

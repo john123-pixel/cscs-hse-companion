@@ -1,0 +1,596 @@
+[
+ {
+  "sub": "1.1",
+  "chapter": 1,
+  "title": "Key Health and Safety Legislation and the Role of the HSE",
+  "exam_alert": "Know the difference: an Improvement Notice allows time to fix a problem; a Prohibition Notice stops the activity immediately. The test often asks which notice applies to an immediate danger.",
+  "common_mistake": "Many candidates assume HSE only gets involved after an accident has happened. In reality, inspectors can visit and act on any site at any time, accident or not.",
+  "memory_aid": "P for Prohibition = Pause the work immediately. I for Improvement = Interval to fix it.",
+  "quick_check": {
+   "q": "What is the key difference between an Improvement Notice and a Prohibition Notice?",
+   "a": "An Improvement Notice allows a set period of time to fix the problem; a Prohibition Notice stops the dangerous activity immediately."
+  },
+  "how_tested": "questions here usually ask you to name the correct Act, or to identify what an HSE inspector is legally able to do --- not just what they typically do."
+ },
+ {
+  "sub": "1.2",
+  "chapter": 1,
+  "title": "Employer and Worker Duties and Responsibilities",
+  "exam_alert": "Responsibility is shared, not one-directional. The test frequently checks whether you know workers carry personal legal duties too, not just employers.",
+  "common_mistake": "\"Reasonably practicable\" is often misread as \"whatever is cheapest or easiest.\" It actually means weighing the level of risk against the cost and effort of controlling it --- a higher risk justifies a higher cost to control.",
+  "memory_aid": "Section 2 = Employer's duty to protect. Section 7 = Your (worker's) duty to take care. Section 8 = Don't interfere or misuse.",
+  "how_tested": "scenario questions here often test whether you understand that duty is shared --- expect questions asking whose responsibility a specific failure is, not just what the law generally requires."
+ },
+ {
+  "sub": "1.3",
+  "chapter": 1,
+  "title": "Site Management Structure, Policies, and Site Rules",
+  "exam_alert": "A Principal Contractor is only required when more than one contractor is involved on the project --- a common trap in scenario questions.",
+  "common_mistake": "Candidates often confuse the Principal Designer (responsible before construction starts, during design) with the Principal Contractor (responsible once construction is underway).",
+  "memory_aid": "Designer plans it on paper first; Contractor builds it on site second --- their CDM duties follow the same order.",
+  "quick_check": {
+   "q": "When is a Principal Contractor required on a construction project under CDM 2015?",
+   "a": "Whenever more than one contractor is involved on the project."
+  },
+  "how_tested": "expect questions asking which duty holder is responsible for a specific task, particularly distinguishing the Principal Designer's pre-construction role from the Principal Contractor's on-site role."
+ },
+ {
+  "sub": "1.4",
+  "chapter": 1,
+  "title": "Inductions, Toolbox Talks, and Permits to Work",
+  "exam_alert": "A permit to work is an additional, time-specific control --- it does not replace the risk assessment and method statement for the task.",
+  "common_mistake": "Toolbox talks are sometimes treated as informal and unrecorded. They should be logged, since they form part of a worker's ongoing training record.",
+  "memory_aid": "Induction = once, at the start. Toolbox talk = often, along the way. Permit to work = every time, for the highest-risk tasks.",
+  "how_tested": "questions often test whether you can tell a permit-to-work situation apart from one that only needs a standard risk assessment and method statement."
+ },
+ {
+  "sub": "1.5",
+  "chapter": 1,
+  "title": "Record-Keeping and Consequences of Non-Compliance",
+  "exam_alert": "Appealing a Prohibition Notice does not suspend it --- work stays stopped throughout the appeal. An appealed Improvement Notice is suspended until the appeal is decided.",
+  "common_mistake": "Candidates often assume only the company can be prosecuted. Individual directors and managers can be personally prosecuted under Section 37 of HASAWA.",
+  "memory_aid": "No record = no proof it happened. To an inspector, an undocumented risk assessment is treated the same as one that was never done.",
+  "quick_check": {
+   "q": "Does appealing a Prohibition Notice pause its effect while the appeal is being decided?",
+   "a": "No --- unlike an Improvement Notice, a Prohibition Notice stays in effect throughout the appeal."
+  },
+  "how_tested": "expect questions matching a described failure to its likely consequence, and questions testing whether appealing a notice pauses it."
+ },
+ {
+  "sub": "2.1",
+  "chapter": 2,
+  "title": "Principles of Risk Assessment",
+  "exam_alert": "The five steps are tested in order more often than you'd expect: Identify, Decide who's harmed, Evaluate and decide precautions, Record and implement, Review. Losing track of the order is an easy way to drop marks.",
+  "common_mistake": "Candidates often treat risk assessment as a one-time paperwork exercise completed before work starts. In reality, the final step --- review --- continues for as long as the task does.",
+  "memory_aid": "\"I Dress Each Risk Right\": Identify, Decide who's harmed, Evaluate and precautions, Record, Review.",
+  "quick_check": {
+   "q": "What is the final step of the HSE's five steps to risk assessment, and why does it matter?",
+   "a": "Review --- because conditions on site change, and an assessment that isn't reviewed and updated no longer reflects the actual risk."
+  },
+  "how_tested": "the test often asks you to put the five steps in the correct order, or to identify which step is missing from a described scenario."
+ },
+ {
+  "sub": "2.2",
+  "chapter": 2,
+  "title": "Identifying Hazards on Site",
+  "exam_alert": "Hazard and risk are not the same thing: the hazard is the thing that could cause harm; the risk is the chance of that harm actually happening and how bad it would be.",
+  "common_mistake": "Candidates often focus only on obvious physical hazards and overlook categories like noise, dust, or manual handling strain, which are just as commonly tested.",
+  "memory_aid": "Hazard = what could hurt you. Risk = how likely, and how badly.",
+  "how_tested": "questions frequently present a scenario and ask you to identify which element is the hazard and which is the risk --- don't assume the terms are interchangeable."
+ },
+ {
+  "sub": "2.3",
+  "chapter": 2,
+  "title": "Method Statements and Safe Systems of Work",
+  "exam_alert": "A method statement that is generic or reused across different jobs does not meet the legal standard --- it must be specific to the actual task and site.",
+  "common_mistake": "Many assume that once RAMS is signed off, it doesn't need to change. It must be reviewed and updated if the task or site conditions change partway through.",
+  "memory_aid": "Risk Assessment finds the danger. Method Statement explains, step by step, how the work avoids it.",
+  "quick_check": {
+   "q": "What is RAMS, and why must it be specific to the task rather than reused from a similar job?",
+   "a": "RAMS combines the Risk Assessment and Method Statement into one document; it must be task-specific because a generic document doesn't reflect the actual hazards and conditions of the job being done."
+  },
+  "how_tested": "expect questions asking what a method statement should contain, or testing whether you know it must be updated when conditions change, not treated as fixed once signed off."
+ },
+ {
+  "sub": "2.4",
+  "chapter": 2,
+  "title": "Hierarchy of Control Measures",
+  "exam_alert": "When a question lists several valid control measures, the correct answer is usually the one highest up the hierarchy, not just any option that would technically work.",
+  "common_mistake": "PPE is often chosen first because it's the most familiar control measure. It is actually the last resort, used once higher-level controls aren't fully sufficient on their own.",
+  "memory_aid": "E-S-E-C-P: Eliminate, Substitute, Engineering, Control (admin), PPE --- from most to least effective.",
+  "quick_check": {
+   "q": "Why does a secured guardrail protect workers more reliably than a safety harness alone?",
+   "a": "A guardrail is an engineering control that protects everyone near it without depending on correct use; a harness is PPE, which only protects the wearer and only if it's used correctly every time."
+  },
+  "how_tested": "the test often asks which control measure should be used first, or gives a list of measures and asks you to identify the most effective one --- not simply a correct one."
+ },
+ {
+  "sub": "2.5",
+  "chapter": 2,
+  "title": "Worker Involvement in Risk Assessment",
+  "exam_alert": "Don't assume risk assessment is a one-directional process from manager to worker. Workers have a legal right to be consulted, and a duty to report hazards as they're spotted.",
+  "common_mistake": "Some candidates assume a risk assessment can't be questioned once work has started. A worker who spots a new hazard is expected to report it, triggering a review.",
+  "memory_aid": "The risk assessment doesn't end when the paperwork is signed --- it ends when the task does.",
+  "quick_check": {
+   "q": "If a worker spots a new hazard partway through a task that wasn't in the original risk assessment, what should happen?",
+   "a": "The hazard should be reported immediately, and the risk assessment reviewed and updated before work continues."
+  },
+  "how_tested": "questions here often test whether you understand that workers have both a right to be consulted and an active duty to report, not just a passive duty to follow instructions."
+ },
+ {
+  "sub": "3.1",
+  "chapter": 3,
+  "title": "Types of Accidents, Incidents, and RIDDOR Reporting",
+  "exam_alert": "Specified injuries and dangerous occurrences: report without delay. Over-7-day injuries: report within 15 days. These two timescales are the ones most often swapped by mistake.",
+  "common_mistake": "Candidates sometimes assume RIDDOR only covers fatalities. It also covers specified injuries, over-7-day injuries, dangerous occurrences, and occupational diseases.",
+  "memory_aid": "Serious and Sudden = Speedy (without delay). Seven days off = Fifteen days to report.",
+  "quick_check": {
+   "q": "Within how many days of the accident must an over-7-day injury be reported under RIDDOR?",
+   "a": "15 days."
+  },
+  "how_tested": "the test frequently asks which timescale applies to which category --- without delay, 10 days, or 15 days --- so the categories and their deadlines need to be kept straight, not just the fact that reporting is required."
+ },
+ {
+  "sub": "3.2",
+  "chapter": 3,
+  "title": "Near Misses, Unsafe Conditions, and First Aid Provision",
+  "exam_alert": "There is no single fixed number of first aiders required by law --- provision must match what the site's own risk assessment identifies as necessary.",
+  "common_mistake": "Some candidates assume a near miss doesn't need reporting because no one was hurt. It should be reported for exactly the same reason an accident is --- to fix the gap before it does cause harm.",
+  "memory_aid": "A near miss is a warning you got to hear without having to be the one it happened to.",
+  "how_tested": "expect questions testing whether you know first aid provision is risk-assessed and site-specific, not a single fixed legal number applied everywhere."
+ },
+ {
+  "sub": "3.3",
+  "chapter": 3,
+  "title": "Causes and Prevention of Fire on Site",
+  "exam_alert": "Removing just one side of the fire triangle --- heat, fuel, or oxygen --- is enough to prevent or stop a fire. You don't need to remove all three.",
+  "common_mistake": "Hot work gets most of the attention, but electrical faults and poorly stored flammable materials cause just as many site fires, and are tested just as often.",
+  "memory_aid": "Heat, Fuel, Oxygen --- break one side of the triangle, and the fire collapses.",
+  "quick_check": {
+   "q": "What are the three elements of the fire triangle, and how many need to be removed to stop a fire?",
+   "a": "Heat, fuel, and oxygen --- removing just one of the three is enough to prevent or extinguish a fire."
+  },
+  "how_tested": "questions here often test whether you can name all three elements of the fire triangle, or identify a prevention measure that addresses a specific cause."
+ },
+ {
+  "sub": "3.4",
+  "chapter": 3,
+  "title": "Fire Detection, Alarms, and Firefighting Equipment",
+  "exam_alert": "A water extinguisher (red label) must never be used on an electrical fire --- one of the most consistently tested facts in this subchapter.",
+  "common_mistake": "Candidates sometimes assume any extinguisher will do in an emergency. The type must match the class of fire, or it can make the situation more dangerous, not less.",
+  "memory_aid": "Red for ordinary materials, Cream for liquids too, Black for electrics --- keep well clear, Blue for powder, the all-rounder, Yellow for the chip-pan fryer.",
+  "how_tested": "expect questions matching an extinguisher's colour or type to the correct fire, and questions testing which type must never be used on an electrical fire."
+ },
+ {
+  "sub": "3.5",
+  "chapter": 3,
+  "title": "Emergency Evacuation Procedures and Assembly Points",
+  "exam_alert": "Never return to a building or work area during an evacuation to collect belongings or finish a task --- the test treats this as an automatic wrong answer in any scenario question.",
+  "common_mistake": "The head count at the assembly point is sometimes seen as a formality. It's actually what tells the emergency services whether someone is still unaccounted for inside.",
+  "memory_aid": "Alarm sounds, tools down, straight to the assembly point --- no exceptions, no detours.",
+  "quick_check": {
+   "q": "What is the first thing a worker should do when the fire alarm sounds?",
+   "a": "Stop work immediately and make their way via the nearest safe route to the designated assembly point."
+  },
+  "how_tested": "the test commonly checks whether you know evacuation is immediate and unconditional, and why the head count at the assembly point matters."
+ },
+ {
+  "sub": "4.1",
+  "chapter": 4,
+  "title": "COSHH and Hazardous Substances",
+  "exam_alert": "COSHH applies to hazardous dust and fumes generated by a task --- such as from cutting or grinding --- just as much as it applies to chemical products brought onto site.",
+  "common_mistake": "Candidates sometimes think COSHH only concerns chemicals with a warning label on the container. Dust, fumes, and vapours produced by the work itself are covered just as fully.",
+  "memory_aid": "If it could get into your lungs, onto your skin, or into your eyes while you work --- COSHH applies, whatever its source.",
+  "quick_check": {
+   "q": "Does COSHH only apply to chemical products brought onto site, or also to substances created by the work itself?",
+   "a": "Both --- COSHH covers dust, fumes, and vapours generated by the task, not only products that arrive in a labelled container."
+  },
+  "how_tested": "questions here often test whether you know COSHH covers substances created by the work itself, such as cutting dust, not just products that arrive in a labelled container."
+ },
+ {
+  "sub": "4.2",
+  "chapter": 4,
+  "title": "Asbestos and Silica Dust Awareness",
+  "exam_alert": "Never assume a material is safe just because it looks fine. If there's any doubt about asbestos, the only correct response is to stop, avoid disturbing it further, and report it.",
+  "common_mistake": "Some candidates think a standard dust mask is enough protection against silica dust. Water suppression or on-tool extraction must be used first, with RPE as an additional control, not the only one.",
+  "memory_aid": "Asbestos: if in doubt, don't. Silica: suppress it before you breathe it.",
+  "quick_check": {
+   "q": "What is the workplace exposure limit for respirable crystalline silica?",
+   "a": "0.1 mg/m³ as an 8-hour time-weighted average."
+  },
+  "how_tested": "expect questions testing the correct response to suspected asbestos, and recall of the exact silica exposure limit figure."
+ },
+ {
+  "sub": "4.3",
+  "chapter": 4,
+  "title": "Safe Storage, Handling, and Respiratory Protection",
+  "exam_alert": "Facial hair at the seal line of tight-fitting RPE breaks the seal and compromises protection --- regardless of the mask's filter rating.",
+  "common_mistake": "Candidates sometimes assume any dust mask provides adequate protection. The filter class must match the hazard --- FFP3 for fine, hazardous dust, not a basic FFP1 nuisance-dust mask.",
+  "memory_aid": "The right mask, wrongly fitted, protects no one. Rating and seal both have to be right.",
+  "how_tested": "questions often test whether you understand that a mask's protection depends on both its filter rating and a properly fitted seal --- one without the other isn't enough."
+ },
+ {
+  "sub": "4.4",
+  "chapter": 4,
+  "title": "Noise and Vibration Hazards",
+  "exam_alert": "87 dB(A) is the exposure limit value that must never be exceeded --- even with hearing protection factored in. It is frequently confused with the lower 80 and 85 dB(A) action values.",
+  "common_mistake": "Some candidates assume hearing protection is only needed once noise feels uncomfortable. It is a legal requirement at specific measured action values, not a matter of personal judgement.",
+  "memory_aid": "Noise: 80 offer, 85 must wear, 87 never exceed. Vibration: 2.5 act, 5.0 is the limit --- for the hands; half those values for the whole body.",
+  "how_tested": "the test often asks for the exact dB or vibration figures at each threshold, and what action is required once each one is reached."
+ },
+ {
+  "sub": "4.5",
+  "chapter": 4,
+  "title": "Manual Handling Principles, Risk Assessment, and Mechanical Aids",
+  "exam_alert": "There is no single legal maximum weight for manual lifting. The TILE assessment --- Task, Individual, Load, Environment --- is what determines what's safe for that specific situation.",
+  "common_mistake": "Candidates sometimes assume a fixed weight figure makes a lift automatically safe or unsafe. The same weight can be safe or dangerous depending on the task, the person, the load's stability, and the environment.",
+  "memory_aid": "TILE: Task, Individual, Load, Environment --- all four, every time, not just the number on the bag.",
+  "quick_check": {
+   "q": "What does the \"L\" in the TILE manual handling framework stand for, and what does it cover?",
+   "a": "Load --- the weight, size, shape, and stability of the object being handled, including whether its contents could shift."
+  },
+  "how_tested": "expect questions asking you to identify the four TILE factors, or testing whether you know there is no fixed universal safe lifting weight."
+ },
+ {
+  "sub": "5.1",
+  "chapter": 5,
+  "title": "Welfare Facilities Requirements",
+  "exam_alert": "Welfare facilities aren't a fixed, one-size-fits-all checklist --- CDM 2015 requires them to match the size of the site and the specific hazards present.",
+  "common_mistake": "Candidates sometimes assume basic toilets and drinking water satisfy the full legal requirement. Showers specifically may be required where hazards such as cement or lead are present.",
+  "memory_aid": "Toilets, washing, water, rest, and a place to change --- five categories, scaled to the site.",
+  "quick_check": {
+   "q": "Why might showers specifically be required on a site, beyond standard washing facilities?",
+   "a": "Because certain hazards, such as cement, lead, or biological agents, need to be washed off the skin promptly, which standard washbasins alone may not achieve."
+  },
+  "how_tested": "questions here often test whether you know facilities scale to the site's size and hazards, rather than a single fixed checklist applying identically everywhere."
+ },
+ {
+  "sub": "5.2",
+  "chapter": 5,
+  "title": "Mental Health and Wellbeing on Site",
+  "exam_alert": "Mental health sits inside the same general duty of care as physical safety --- not as a separate, lesser concern.",
+  "common_mistake": "Some candidates treat mental health as outside the scope of health and safety entirely. It falls within the same employer duty of care as physical risk.",
+  "memory_aid": "The duty of care doesn't stop at the skin --- it covers what's going on underneath it too.",
+  "how_tested": "the test may present a colleague showing signs of struggling and ask for the appropriate response --- the correct answer is to check in or signpost support, not to do nothing because it feels like someone else's business."
+ },
+ {
+  "sub": "5.3",
+  "chapter": 5,
+  "title": "Skin Health and Dermatitis Prevention",
+  "exam_alert": "Wet cement causes genuine chemical burns through prolonged skin contact --- this is a real injury, not minor irritation, and the test treats it accordingly.",
+  "common_mistake": "Cement-related skin damage is sometimes dismissed as \"a bit of dryness.\" Left untreated, prolonged contact causes real burns and can lead to lasting dermatitis.",
+  "memory_aid": "Wet cement doesn't just get you dirty --- it can burn you, and you might not feel it happening.",
+  "quick_check": {
+   "q": "Why is prolonged skin contact with wet cement a serious hazard rather than a minor irritation?",
+   "a": "Wet cement is highly alkaline, and prolonged contact can cause genuine chemical burns, often without the worker feeling significant pain at the time."
+  },
+  "how_tested": "expect questions testing whether you understand wet cement causes real chemical burns, and what prevents it, rather than treating it as routine mess to clean off later."
+ },
+ {
+  "sub": "5.4",
+  "chapter": 5,
+  "title": "Sun Exposure and Heat Stress",
+  "exam_alert": "Confusion or collapse in hot conditions is treated as heat stroke --- a medical emergency requiring immediate help, not a case of simply cooling down in your own time.",
+  "common_mistake": "Sun exposure risk is sometimes dismissed because the damage isn't visible immediately. UV damage accumulates over years of outdoor work, not just from one occasion.",
+  "memory_aid": "Thirsty already means you're behind --- drink on a schedule, not just when you notice you need to.",
+  "how_tested": "the test often distinguishes general tiredness from the specific warning signs of heat stress, and tests the correct response once those signs appear."
+ },
+ {
+  "sub": "5.5",
+  "chapter": 5,
+  "title": "Substance Misuse and Fitness for Work",
+  "exam_alert": "Fitness for work covers legal, prescribed medication as much as alcohol or illegal drugs --- if it affects safe working, it must be disclosed.",
+  "common_mistake": "Some candidates assume only obvious drunkenness counts as being unfit for work. Subtle impairment from medication or fatigue falls under the same duty to disclose and act on.",
+  "memory_aid": "If it could slow your reactions or cloud your judgement, it's relevant to fitness for work --- whatever the label on the bottle says.",
+  "quick_check": {
+   "q": "What should a worker do if they believe a colleague may be unfit for work due to substance use or impairment?",
+   "a": "Report it to a supervisor rather than ignoring it, since an impaired colleague is a safety risk to themselves and everyone working around them."
+  },
+  "how_tested": "expect questions testing whether you know fitness for work covers legal medication, not only alcohol or illegal substances, and what the correct response is if a colleague appears impaired."
+ },
+ {
+  "sub": "6.1",
+  "chapter": 6,
+  "title": "PPE: Legal Duties, Cost, and the Hierarchy of Control",
+  "exam_alert": "PPE sits at the bottom of the hierarchy of control. It's used only for risks that remain after other, more effective controls have already been applied.",
+  "common_mistake": "Candidates sometimes think workers can be asked to pay for or contribute toward their own PPE. The employer must provide and maintain it free of charge.",
+  "memory_aid": "PPE protects the person, but it's always the employer's wallet that pays.",
+  "quick_check": {
+   "q": "Where does PPE sit in the hierarchy of control, and who pays for it?",
+   "a": "PPE is the last resort, used only for risks remaining after other controls are applied, and the employer must always pay for it, including repairs and replacements."
+  },
+  "how_tested": "expect questions testing both the hierarchy --- PPE as a last resort, not a first response --- and the fact that the employer always bears the cost."
+ },
+ {
+  "sub": "6.2",
+  "chapter": 6,
+  "title": "Head, Eye, and Foot Protection",
+  "exam_alert": "A hard hat that's taken an impact is replaced even without visible damage --- the protective structure can fail invisibly.",
+  "common_mistake": "Candidates sometimes treat all eye protection as interchangeable. Goggles, glasses, and face shields each suit a different hazard --- fine dust, general impact, or flying debris.",
+  "memory_aid": "If it's been hit, heated, or left in the sun, it's no longer trustworthy --- hard hats don't get second chances.",
+  "quick_check": {
+   "q": "Why should a hard hat be replaced after an impact, even with no visible crack?",
+   "a": "Because the protective shell can be structurally weakened internally in a way that isn't visible from the outside, so it can no longer be relied on."
+  },
+  "how_tested": "the test may ask why a hard hat with no visible damage is still replaced after an impact, or which eye protection matches a specific task such as grinding."
+ },
+ {
+  "sub": "6.3",
+  "chapter": 6,
+  "title": "Hand Protection, Hearing Protection, and Hi-Vis Clothing",
+  "exam_alert": "Gloves are removed near rotating machinery --- the entanglement risk they create outweighs the protection they offer in that specific situation.",
+  "common_mistake": "Candidates sometimes assume combining earplugs and earmuffs always gives better protection. Over-protection can block a worker from hearing alarms or shouted warnings when it isn't actually required.",
+  "memory_aid": "Match the glove to the hazard, and take it off before the hazard becomes the glove itself.",
+  "quick_check": {
+   "q": "Why might a worker be told to remove gloves before working near rotating machinery?",
+   "a": "Because loose glove material can catch in the moving parts and drag the hand into the machinery, turning the glove itself into the hazard."
+  },
+  "how_tested": "expect questions on matching glove type to hazard, the rotating-machinery exception, and why hearing protection is a risk-assessed choice rather than always wearing maximum protection."
+ },
+ {
+  "sub": "6.4",
+  "chapter": 6,
+  "title": "Respiratory Protective Equipment: Types, Fit, and Maintenance",
+  "exam_alert": "Facial hair along a tight-fitting mask's seal line breaks the seal --- a worker in that situation needs a refit test or RPE that doesn't rely on a seal at all.",
+  "common_mistake": "Candidates sometimes assume a face-fit test only needs to happen once, ever. A refit is required whenever facial features change enough to affect the seal.",
+  "memory_aid": "No seal, no protection --- anything that changes your face can change the fit.",
+  "how_tested": "the test may describe a change to a worker's face --- weight change, facial hair, dental work --- and ask what should happen to their RPE as a result."
+ },
+ {
+  "sub": "6.5",
+  "chapter": 6,
+  "title": "Safety Signage: Shapes, Colours, and Meanings",
+  "exam_alert": "Shape is tested as rigorously as colour --- a mandatory sign is always a circle, a warning sign is always a triangle, whatever the specific instruction shown.",
+  "common_mistake": "Candidates sometimes mix up the two circular categories. Mandatory (blue, instructing) and prohibition (red, forbidding, with a diagonal line) are both circles but mean opposite things.",
+  "memory_aid": "Red circle says stop, blue circle says do, yellow triangle says take care, green means the way out, red square means the way to fight a fire.",
+  "quick_check": {
+   "q": "Why does a safety sign's shape matter as much as its colour?",
+   "a": "Because shape lets a colour-blind worker, or a worker in poor light, still recognise a sign's meaning from its outline alone, without relying on colour perception."
+  },
+  "how_tested": "expect questions that show a sign's shape and colour and ask which category it belongs to, or ask what shape or colour a specific category uses."
+ },
+ {
+  "sub": "7.1",
+  "chapter": 7,
+  "title": "The Work at Height Regulations 2005: Hierarchy and Duties",
+  "exam_alert": "The hierarchy is strict and sequential --- avoid, then prevent, then minimise. A harness is the last resort, not the default first answer.",
+  "common_mistake": "Candidates sometimes jump straight to fall arrest equipment as the answer. Avoiding the work at height entirely, or preventing the fall with guardrails, comes first.",
+  "memory_aid": "Avoid, prevent, minimise --- work from the ground up, not the harness down.",
+  "quick_check": {
+   "q": "What is the first question to ask under the Work at Height Regulations 2005, before any equipment is chosen?",
+   "a": "Whether the work at height can be avoided altogether, For example by doing the task from ground level instead."
+  },
+  "how_tested": "the test often presents a work-at-height scenario and asks which control should be considered first --- the correct answer works through avoid, then prevent, then minimise, in that order."
+ },
+ {
+  "sub": "7.2",
+  "chapter": 7,
+  "title": "Ladders and Stepladders: Safe Use",
+  "exam_alert": "Footing a ladder is the last resort for securing it, used only when tying, a stability device, and wedging are all impractical --- not the default method.",
+  "common_mistake": "Candidates sometimes treat ladders as suitable for any task. They're only appropriate for low-risk, short-duration work where a risk assessment supports their use.",
+  "memory_aid": "One in four, hand and two, footing's the last thing you do.",
+  "quick_check": {
+   "q": "What does the 1 in 4 rule mean for positioning a leaning ladder?",
+   "a": "The base of the ladder sits one unit away from the wall for every four units of working height, giving roughly a 75-degree angle."
+  },
+  "how_tested": "expect questions on calculating or recognising the 1 in 4 rule, the correct order of methods to secure a ladder, and when a stepladder's two-feet-on-one-step rule applies for brief two-handed work."
+ },
+ {
+  "sub": "7.3",
+  "chapter": 7,
+  "title": "Scaffolding: Erection, Inspection, and Safe Use",
+  "exam_alert": "7 days is a maximum interval, not a guideline --- and bad weather or alteration triggers an extra inspection regardless of when the last one happened.",
+  "common_mistake": "Candidates sometimes assume a scaffold inspected once when erected remains safe indefinitely. Conditions change, and regular reinspection is a legal requirement.",
+  "memory_aid": "Before first use, every 7, and after the weather gets rough.",
+  "quick_check": {
+   "q": "Why does a scaffold need a competent person to inspect it every 7 days, not just once when first erected?",
+   "a": "Because conditions such as weather, ground movement, or site activity can cause a scaffold to deteriorate after erection, so regular reinspection confirms it's still safe to use."
+  },
+  "how_tested": "the test often asks for the maximum interval between scaffold inspections, or what triggers an inspection outside that routine schedule."
+ },
+ {
+  "sub": "7.4",
+  "chapter": 7,
+  "title": "Edge Protection, Fall Restraint, and Fall Arrest",
+  "exam_alert": "Fall arrest requires a rescue plan in addition to the equipment itself, because a worker suspended after a fall is at risk of suspension trauma if left too long.",
+  "common_mistake": "Candidates sometimes treat restraint and arrest as interchangeable terms for 'wearing a harness.' Restraint stops a fall from happening; arrest only catches one that's already started.",
+  "memory_aid": "Restraint stops you reaching the edge. Arrest catches you after you've gone over it.",
+  "quick_check": {
+   "q": "What is the key difference between a fall restraint system and a fall arrest system?",
+   "a": "Restraint physically prevents a worker from reaching a fall hazard at all, while arrest catches a worker after a fall has already begun and requires a rescue plan."
+  },
+  "how_tested": "the test may describe a harness setup and ask whether it's restraint or arrest, based on whether the worker can reach the fall hazard at all."
+ },
+ {
+  "sub": "7.5",
+  "chapter": 7,
+  "title": "MEWPs and Fragile Roofs",
+  "exam_alert": "A fragile roof can give way without warning regardless of how solid it looks --- crawling boards, staging, and edge protection are used whatever the surface appears to be.",
+  "common_mistake": "Candidates sometimes assume a solid-looking roof surface is safe to walk on directly. Fragility isn't always visible, and the correct response is the same whatever it looks like.",
+  "memory_aid": "If it says fragile, don't trust your feet --- trust the boards instead.",
+  "quick_check": {
+   "q": "Why should a worker never step directly onto a fragile roof surface, even if it looks solid?",
+   "a": "Because fragile roofing material can give way suddenly without warning regardless of its appearance, so access must spread the load using boards or staging instead."
+  },
+  "how_tested": "expect a scenario describing a roof that looks solid, testing whether you know appearance alone is never a safe basis for deciding a surface will bear weight."
+ },
+ {
+  "sub": "8.1",
+  "chapter": 8,
+  "title": "Excavations: Collapse Risk and Temporary Support",
+  "exam_alert": "A competent person must inspect an excavation at the start of every shift, and again after any event --- such as heavy rain or a fall of material --- that could have affected its stability.",
+  "common_mistake": "Candidates sometimes assume an excavation inspected once at the start of a job remains safe throughout. It needs reinspection at the start of each shift and after anything that could affect stability.",
+  "memory_aid": "No ground is trustworthy on its own --- batter it back or box it in, every shift, no exceptions.",
+  "quick_check": {
+   "q": "How often must a competent person inspect an open excavation while work is ongoing?",
+   "a": "At the start of every shift, and again after any event --- such as heavy rain or a fall of material --- that could have affected its stability."
+  },
+  "how_tested": "the test often asks what must happen before excavation work begins, or how often an open excavation must be inspected while work continues."
+ },
+ {
+  "sub": "8.2",
+  "chapter": 8,
+  "title": "Avoiding Underground and Overhead Services",
+  "exam_alert": "Underground services must be identified and marked before excavation starts --- not discovered by striking them during digging.",
+  "common_mistake": "Candidates sometimes think overhead power line danger requires actual contact. Getting close enough can cause a flashover without the plant touching the line at all.",
+  "memory_aid": "Scan before you dig, and keep your distance overhead --- contact isn't the only way power lines hurt you.",
+  "how_tested": "expect questions on what must be done before excavating to avoid underground services, and how overhead line risk is managed when work beneath a line can't be avoided."
+ },
+ {
+  "sub": "8.3",
+  "chapter": 8,
+  "title": "Confined Spaces: Recognition and the Duty to Avoid Entry",
+  "exam_alert": "Avoiding entry altogether is the first duty under the Confined Spaces Regulations --- not how to enter safely, but whether entry is needed at all.",
+  "common_mistake": "Candidates sometimes list only toxic atmosphere as a confined space risk. Oxygen deficiency or enrichment, a flammable atmosphere, and engulfment are equally recognised dangers.",
+  "memory_aid": "Air, fire, and being buried alive --- a confined space can kill you four different ways before you've done any work.",
+  "quick_check": {
+   "q": "What is the first question to ask when work involves a confined space?",
+   "a": "Whether the work can be done without anyone entering the space at all, For example using remote cameras or tools operated from outside."
+  },
+  "how_tested": "the test may ask what must be considered first when work involves a confined space --- the correct answer is always whether entry can be avoided altogether."
+ },
+ {
+  "sub": "8.4",
+  "chapter": 8,
+  "title": "Confined Spaces: Permits, Gas Testing, and Rescue",
+  "exam_alert": "Rescue arrangements must be fully in place before anyone enters a confined space --- they are never something to arrange once a problem has already occurred.",
+  "common_mistake": "Candidates sometimes assume adding oxygen to a stale confined space makes it safer to breathe. It instead sharply increases the risk of fire or explosion and must never be done.",
+  "memory_aid": "If the rescue plan isn't ready, nobody goes in --- not even for a minute.",
+  "quick_check": {
+   "q": "Why must oxygen never be used to 'sweeten' the air in a confined space before entry?",
+   "a": "Adding oxygen raises its concentration well above normal, which sharply increases the risk of fire or explosion rather than making the space safer to breathe."
+  },
+  "how_tested": "expect questions testing whether rescue arrangements must be ready before entry, and why oxygen is never added to a confined space's atmosphere."
+ },
+ {
+  "sub": "8.5",
+  "chapter": 8,
+  "title": "Electrical Safety on Site: Voltage, RCDs, and Inspection",
+  "exam_alert": "110V plugs and connectors are always yellow --- recognising this colour coding is directly testable and prevents the wrong supply being used.",
+  "common_mistake": "Candidates sometimes think an RCD alone makes 230V equipment as safe as 110V. The two work together: lower voltage limits how severe a shock is, and the RCD limits how long it lasts --- neither replaces the other.",
+  "memory_aid": "Battery beats yellow, yellow beats blue --- and whichever one you use, check it before you plug it in.",
+  "quick_check": {
+   "q": "Why is 110V reduced voltage preferred over 230V mains for corded power tools on site?",
+   "a": "Its earthed centre-tapped transformer means each live conductor is only around 55V to earth, so a shock at that level is far less likely to be fatal than one from full 230V mains."
+  },
+  "how_tested": "expect questions on what colour a 110V plug is, why 110V is safer than 230V, and what an RCD actually does."
+ },
+ {
+  "sub": "9.1",
+  "chapter": 9,
+  "title": "Plant and Vehicle Safety: Competence and Pre-Use Checks",
+  "exam_alert": "Operating plant always requires training and competence specific to that machine --- experience with similar equipment, or general confidence, isn't a substitute.",
+  "common_mistake": "Candidates sometimes assume a vehicle that looks fine doesn't need its daily check. The check is required every shift regardless of how the machine appears.",
+  "memory_aid": "Looks fine isn't the same as checked and signed --- do the check every shift, no exceptions.",
+  "quick_check": {
+   "q": "What should an operator do if a pre-use check reveals a fault, such as a hydraulic leak?",
+   "a": "Report it and take the machine out of use rather than continuing to operate it until the fault is corrected."
+  },
+  "how_tested": "the test may describe a worker using plant without the right card or certification, or skipping a pre-use check, and ask what should happen instead."
+ },
+ {
+  "sub": "9.2",
+  "chapter": 9,
+  "title": "Site Traffic Management: Segregation, Routes, and Reversing",
+  "exam_alert": "Segregating pedestrians and vehicles with separate routes is more effective than relying on a banksman, and removing the need to reverse (such as with a one-way system) comes before minimising or managing it.",
+  "common_mistake": "Candidates sometimes treat a banksman as the primary control for reversing risk. A banksman is used only once removing or minimising the need to reverse isn't practicable.",
+  "memory_aid": "Separate first, remove the reverse second, and a banksman only once the first two run out.",
+  "how_tested": "expect questions on what the most effective control for pedestrian-vehicle risk is, and where a banksman sits in that hierarchy relative to segregation and removing the need to reverse."
+ },
+ {
+  "sub": "9.3",
+  "chapter": 9,
+  "title": "Banksmen and Signallers: Roles and Safe Communication",
+  "exam_alert": "Losing visual contact with a banksman or signaller means stopping immediately --- not slowing down, not continuing carefully, but a full stop.",
+  "common_mistake": "Candidates sometimes assume a radio link is enough without visual contact. Visibility between driver and banksman or signaller is the rule the whole system depends on.",
+  "memory_aid": "Can't see them, can't move --- visual contact is the whole deal, not a nice-to-have.",
+  "quick_check": {
+   "q": "What must a driver or crane operator do if they lose sight of the banksman or signaller directing them?",
+   "a": "Stop immediately, rather than continuing cautiously based on the last signal given."
+  },
+  "how_tested": "the test may describe a banksman or signaller going out of view and ask what the driver or operator should do --- the correct answer is always to stop immediately."
+ },
+ {
+  "sub": "9.4",
+  "chapter": 9,
+  "title": "LOLER: Lifting Plans and the Appointed Person",
+  "exam_alert": "The appointed person's competence must be specific to the type of lift being planned --- general lifting experience alone isn't enough for an unusual or complex operation.",
+  "common_mistake": "Candidates sometimes assume every single lift needs its own formal written plan. Routine lifts following an established, proven procedure may not, but anything that departs from standard practice does.",
+  "memory_aid": "Routine lifts follow the procedure; unusual lifts get their own plan, written by someone who actually understands that specific lift.",
+  "quick_check": {
+   "q": "Why must the appointed person planning a lift have knowledge specific to that type of lift, not just general lifting experience?",
+   "a": "Different lifts carry different risks from load geometry, surroundings, and equipment, so the plan only properly controls those risks if the planner understands the specific lift, not lifting in general."
+  },
+  "how_tested": "expect questions on who is responsible for planning a lift, and what distinguishes a lift that needs a full written plan from one that doesn't."
+ },
+ {
+  "sub": "9.5",
+  "chapter": 9,
+  "title": "Thorough Examination, Lifting Accessories, and Safe Working Load",
+  "exam_alert": "Equipment used to lift people, and lifting accessories such as slings, are examined every 6 months --- not the general 12-month interval that applies to other lifting equipment.",
+  "common_mistake": "Candidates sometimes assume all lifting equipment follows the same 12-month examination cycle. Equipment lifting people and accessories like slings are examined twice as often.",
+  "memory_aid": "People and accessories: every 6. Everything else: every 12.",
+  "how_tested": "the test often asks for the specific examination interval for equipment used to lift people, or for lifting accessories, which is shorter than the general 12-month interval."
+ },
+ {
+  "sub": "10.1",
+  "chapter": 10,
+  "title": "The Waste Hierarchy and Duty of Care",
+  "exam_alert": "Prevention or reduction of waste is always the top priority in the hierarchy --- not recycling, which many candidates assume comes first.",
+  "common_mistake": "Candidates sometimes treat disposal as a neutral, default option. It's the least preferred choice in the hierarchy, used only once every other option has been ruled out.",
+  "memory_aid": "Prevent, reuse, recycle, recover, dispose --- in that order, every time.",
+  "quick_check": {
+   "q": "What is the single highest priority in the waste hierarchy?",
+   "a": "Preventing or reducing waste in the first place, considered as early as the design and pre-construction stage."
+  },
+  "how_tested": "the test often asks which option in the waste hierarchy comes first, expecting prevention or reduction rather than recycling."
+ },
+ {
+  "sub": "10.2",
+  "chapter": 10,
+  "title": "Waste Transfer and Hazardous Waste Documentation",
+  "exam_alert": "Hazardous waste always needs a consignment note in addition to the standard waste transfer note --- the transfer note alone isn't sufficient.",
+  "common_mistake": "Candidates sometimes assume responsibility for waste ends once a skip leaves site. The duty of care continues until the waste reaches an authorised destination.",
+  "memory_aid": "Ordinary waste gets a transfer note. Hazardous waste gets that note plus a consignment note --- never just one.",
+  "how_tested": "expect questions on what extra documentation hazardous waste requires beyond the standard transfer note, and who is responsible for checking a waste carrier is properly licensed."
+ },
+ {
+  "sub": "10.3",
+  "chapter": 10,
+  "title": "Preventing Water and Land Pollution: Bunding and Spill Response",
+  "exam_alert": "A bund must hold 110% of the largest single container stored within it --- not 110% of everything combined, and not just the volume of what's normally kept there.",
+  "common_mistake": "Candidates sometimes assume a bund just needs to match the total combined volume of everything stored inside it. It's measured against the single largest container, with a margin above that.",
+  "memory_aid": "110% of the biggest one --- not the total, just the largest single container it has to outlast.",
+  "quick_check": {
+   "q": "Why must rainwater collecting in a bund never be allowed to build up unchecked?",
+   "a": "It reduces the bund's spare capacity to contain a spill, and if it needs removing, it may itself count as contaminated waste requiring proper disposal."
+  },
+  "how_tested": "the test often states a percentage figure for bund capacity and asks whether it meets the legal minimum, or asks what a bund's capacity is measured against."
+ },
+ {
+  "sub": "10.4",
+  "chapter": 10,
+  "title": "Noise, Dust, and Nuisance Control",
+  "exam_alert": "Noise and dust nuisance control protects people beyond the site boundary and applies even when on-site exposure limits are already being met.",
+  "common_mistake": "Candidates sometimes assume noise and dust control is only about worker exposure limits covered elsewhere in this guide. Nuisance to neighbours is a distinct, additional duty.",
+  "memory_aid": "Protecting your own workers isn't the same as protecting the street outside the fence --- both duties apply, separately.",
+  "quick_check": {
+   "q": "Why might a site need to control dust even when levels are already safe for the workers on site?",
+   "a": "Because noise and dust nuisance control is a separate duty aimed at protecting neighbouring properties and the public, independent of whether worker exposure limits are being met."
+  },
+  "how_tested": "expect a question distinguishing nuisance control, which protects neighbours and the public, from the exposure controls in Chapter 4, which protect workers on site."
+ },
+ {
+  "sub": "10.5",
+  "chapter": 10,
+  "title": "Protecting Wildlife and Habitats",
+  "exam_alert": "There's no single safe calendar date for clearing vegetation without a nesting check --- breeding season timing varies, so a check is the correct approach regardless of the date.",
+  "common_mistake": "Candidates sometimes assume clearance outside the 'usual' nesting months is automatically risk-free. Timing varies enough that a check is still the right response.",
+  "memory_aid": "No safe date, only a safe check --- look before you clear, whatever month it is.",
+  "quick_check": {
+   "q": "What should a site do if an active bird's nest is found during a pre-clearance check?",
+   "a": "Leave it undisturbed, set up a temporary exclusion zone around it, and continue clearance elsewhere until the young have fledged."
+  },
+  "how_tested": "the test may describe vegetation clearance taking place at a particular time of year and ask whether a nesting check is still needed --- the correct answer is almost always yes, because there's no fixed safe date."
+ }
+]
