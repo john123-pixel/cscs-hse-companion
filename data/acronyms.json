@@ -1,0 +1,140 @@
+[
+ {
+  "abbr": "HS&E",
+  "full": "Health, Safety and Environment",
+  "where": "Introduction",
+  "quote": "CITB Health, Safety and Environment (HS&E) test"
+ },
+ {
+  "abbr": "CSCS",
+  "full": "Construction Skills Certification Scheme",
+  "where": "Introduction",
+  "quote": "The Construction Skills Certification Scheme (CSCS) card"
+ },
+ {
+  "abbr": "CITB",
+  "full": "Construction Industry Training Board",
+  "where": "Introduction",
+  "quote": "administered by the Construction Industry Training Board (CITB)"
+ },
+ {
+  "abbr": "HASAWA",
+  "full": "Health and Safety at Work etc. Act 1974",
+  "where": "1.1",
+  "quote": "the Health and Safety at Work etc. Act 1974 (HASAWA)"
+ },
+ {
+  "abbr": "CDM 2015",
+  "full": "Construction (Design and Management) Regulations 2015",
+  "where": "1.1",
+  "quote": "the Construction (Design and Management) Regulations 2015 (CDM 2015)"
+ },
+ {
+  "abbr": "HSE",
+  "full": "Health and Safety Executive",
+  "where": "1.1",
+  "quote": "The Health and Safety Executive (HSE) is the national regulator"
+ },
+ {
+  "abbr": "RAMS",
+  "full": "Risk Assessment and Method Statement",
+  "where": "2.3",
+  "quote": "RAMS combines the Risk Assessment and Method Statement into one document"
+ },
+ {
+  "abbr": "PPE",
+  "full": "personal protective equipment",
+  "where": "2.4",
+  "quote": "only then rely on personal protective equipment (PPE) as the last line of defence"
+ },
+ {
+  "abbr": "RIDDOR",
+  "full": "Reporting of Injuries, Diseases and Dangerous Occurrences Regulations 2013",
+  "where": "3.1",
+  "quote": "the Reporting of Injuries, Diseases and Dangerous Occurrences Regulations 2013 (RIDDOR)"
+ },
+ {
+  "abbr": "PEEP",
+  "full": "Personal Emergency Evacuation Plan",
+  "where": "3.5",
+  "quote": "should have a Personal Emergency Evacuation Plan (PEEP) arranged in advance"
+ },
+ {
+  "abbr": "COSHH",
+  "full": "Control of Substances Hazardous to Health Regulations 2002",
+  "where": "4.1",
+  "quote": "The Control of Substances Hazardous to Health Regulations 2002 (COSHH)"
+ },
+ {
+  "abbr": "RCS",
+  "full": "Respirable crystalline silica",
+  "where": "4.2",
+  "quote": "Respirable crystalline silica (RCS), produced when cutting, grinding, or drilling concrete, brick, mortar, or stone"
+ },
+ {
+  "abbr": "RPE",
+  "full": "respiratory protective equipment",
+  "where": "4.3",
+  "quote": "Where respiratory protective equipment (RPE) is needed"
+ },
+ {
+  "abbr": "HAV",
+  "full": "Hand-arm vibration",
+  "where": "4.4",
+  "quote": "Hand-arm vibration (HAV), caused by tools such as breakers and drills"
+ },
+ {
+  "abbr": "WBV",
+  "full": "Whole-body vibration",
+  "where": "4.4",
+  "quote": "Whole-body vibration (WBV), from operating vehicles and plant"
+ },
+ {
+  "abbr": "TILE",
+  "full": "Task, Individual, Load, Environment",
+  "where": "4.5",
+  "quote": "The TILE assessment — Task, Individual, Load, Environment"
+ },
+ {
+  "abbr": "PAPR",
+  "full": "powered air-purifying respirators",
+  "where": "6.4",
+  "quote": "powered air-purifying respirators (PAPR), which use a motor to push filtered air into a hood or visor"
+ },
+ {
+  "abbr": "MEWPs",
+  "full": "Mobile elevating work platforms",
+  "where": "7.5",
+  "quote": "Mobile elevating work platforms (MEWPs) — scissor lifts and boom-type platforms such as cherry pickers"
+ },
+ {
+  "abbr": "CAT",
+  "full": "cable avoidance tool",
+  "where": "8.2",
+  "quote": "a cable avoidance tool (a CAT scanner used alongside a signal generator)"
+ },
+ {
+  "abbr": "RCD",
+  "full": "residual current device",
+  "where": "8.5",
+  "quote": "A residual current device (RCD) adds a second layer of protection"
+ },
+ {
+  "abbr": "PUWER",
+  "full": "Provision and Use of Work Equipment Regulations 1998",
+  "where": "9.1",
+  "quote": "The Provision and Use of Work Equipment Regulations 1998 (PUWER)"
+ },
+ {
+  "abbr": "LOLER",
+  "full": "Lifting Operations and Lifting Equipment Regulations 1998",
+  "where": "9.4",
+  "quote": "Under the Lifting Operations and Lifting Equipment Regulations 1998 (LOLER)"
+ },
+ {
+  "abbr": "SWL",
+  "full": "safe working load",
+  "where": "9.5",
+  "quote": "The safe working load (SWL) marked on lifting equipment and accessories must never be exceeded"
+ }
+]

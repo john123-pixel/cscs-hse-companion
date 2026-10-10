@@ -1,0 +1,321 @@
+[
+ {
+  "topic": "Test length",
+  "fact": "Operatives test: 45 minutes, 50 multiple-choice questions",
+  "where": "Introduction",
+  "quote": "The Operatives test is 45 minutes long and contains 50 questions, all multiple choice."
+ },
+ {
+  "topic": "Pass mark",
+  "fact": "90% — 45 of the 50 questions correct",
+  "where": "Introduction",
+  "quote": "The pass mark for the Operatives test is 90% — you need 45 of the 50 questions correct."
+ },
+ {
+  "topic": "Test pass validity for card application",
+  "fact": "Pass must have been achieved within the last two years when applying for the CSCS card",
+  "where": "Introduction",
+  "quote": "your HS&E test pass must have been achieved within the last two years"
+ },
+ {
+  "topic": "Test fee",
+  "fact": "£22.50 at the time of writing (confirm current price when booking)",
+  "where": "Introduction",
+  "quote": "At the time of writing the test fee is £22.50"
+ },
+ {
+  "topic": "Secondary ID",
+  "fact": "Without Primary ID, two pieces of Secondary ID are needed",
+  "where": "Introduction",
+  "quote": "you will need two pieces of Secondary ID instead"
+ },
+ {
+  "topic": "HASAWA Section 2",
+  "fact": "Employers must ensure the health, safety and welfare of their employees",
+  "where": "1.2",
+  "quote": "Under Section 2 of HASAWA, employers must ensure the health, safety, and welfare of their employees"
+ },
+ {
+  "topic": "HASAWA Section 3",
+  "fact": "Extends a similar duty to people who are not employees",
+  "where": "1.2",
+  "quote": "Section 3 extends a similar duty to people who are not employees"
+ },
+ {
+  "topic": "HASAWA Section 7",
+  "fact": "Every worker must take reasonable care of their own health and safety (and others affected)",
+  "where": "1.2",
+  "quote": "Section 7 requires every worker to take reasonable care of their own health and safety"
+ },
+ {
+  "topic": "HASAWA Section 8",
+  "fact": "No one may intentionally or recklessly interfere with or misuse anything provided for health and safety",
+  "where": "1.2",
+  "quote": "Section 8 goes further: no one may intentionally or recklessly interfere with or misuse anything provided in the interests of health and safety."
+ },
+ {
+  "topic": "HASAWA Section 37",
+  "fact": "Directors and managers can be personally prosecuted",
+  "where": "1.5",
+  "quote": "Under Section 37 of HASAWA, individual directors and managers can be personally prosecuted, not only the company"
+ },
+ {
+  "topic": "Written H&S policy",
+  "fact": "Required for any employer with five or more employees",
+  "where": "1.2",
+  "quote": "Any employer with five or more employees must also have a written health and safety policy."
+ },
+ {
+  "topic": "H&S policy parts",
+  "fact": "Typically three parts: statement of intent, organisation, arrangements",
+  "where": "1.3",
+  "quote": "typically has three parts: a statement of intent (the commitment from senior management), the organisation (who is responsible for what), and the arrangements"
+ },
+ {
+  "topic": "Principal Contractor needed",
+  "fact": "Required whenever more than one contractor is involved on a project",
+  "where": "1.3",
+  "quote": "A Principal Contractor is only required when more than one contractor is involved on the project"
+ },
+ {
+  "topic": "Risk assessment steps",
+  "fact": "HSE sets out five steps for risk assessment",
+  "where": "2.1",
+  "quote": "HSE sets out five steps for carrying one out properly"
+ },
+ {
+  "topic": "RIDDOR specified injury",
+  "fact": "Includes any injury requiring more than 24 hours in hospital",
+  "where": "3.1",
+  "quote": "and any injury requiring more than 24 hours in hospital"
+ },
+ {
+  "topic": "RIDDOR specified injury timescale",
+  "fact": "Report without delay, with the written report following within 10 days",
+  "where": "3.1",
+  "quote": "it must be reported to HSE without delay, with the written report following within 10 days"
+ },
+ {
+  "topic": "RIDDOR over-7-day injury",
+  "fact": "Unable to do normal duties for more than 7 consecutive days: report within 15 days of the accident",
+  "where": "3.1",
+  "quote": "Injuries that leave a worker unable to carry out their normal duties for more than 7 consecutive days must be reported within 15 days of the accident."
+ },
+ {
+  "topic": "RIDDOR quick timescales",
+  "fact": "Specified injuries and dangerous occurrences: without delay; over-7-day injuries: within 15 days",
+  "where": "3.1",
+  "quote": "Specified injuries and dangerous occurrences: report without delay. Over-7-day injuries: report within 15 days."
+ },
+ {
+  "topic": "Fire triangle",
+  "fact": "Three elements: heat, fuel and oxygen; removing one is enough",
+  "where": "3.3",
+  "quote": "Answer: Heat, fuel, and oxygen — removing just one of the three is enough to prevent or extinguish a fire."
+ },
+ {
+  "topic": "Dry powder extinguisher voltage",
+  "fact": "Only safe on electrical fires up to 1000V, not above",
+  "where": "3.4",
+  "quote": "dry powder is only safe on electrical fires up to 1000V, not above it."
+ },
+ {
+  "topic": "Asbestos age of buildings",
+  "fact": "May be present in any building built or refurbished before 2000",
+  "where": "4.2",
+  "quote": "Asbestos may be present in any building built or refurbished before 2000"
+ },
+ {
+  "topic": "Asbestos types",
+  "fact": "Three types: chrysotile (white), amosite (brown), crocidolite (blue)",
+  "where": "4.2",
+  "quote": "Three types were historically used — chrysotile (white), amosite (brown), and crocidolite (blue)"
+ },
+ {
+  "topic": "Silica exposure limit",
+  "fact": "WEL 0.1 mg/m³ as an 8-hour time-weighted average",
+  "where": "4.2",
+  "quote": "Its workplace exposure limit is 0.1 mg/m³ as an 8-hour time-weighted average."
+ },
+ {
+  "topic": "Noise lower exposure action value",
+  "fact": "80 dB(A): assess risk; provide hearing protection if requested",
+  "where": "4.4",
+  "quote": "At the lower exposure action value of 80 dB(A), the employer must assess the risk and provide hearing protection if a worker requests it."
+ },
+ {
+  "topic": "Noise upper exposure action value",
+  "fact": "85 dB(A): hearing protection mandatory; hearing protection zone marked",
+  "where": "4.4",
+  "quote": "At the upper exposure action value of 85 dB(A), hearing protection becomes mandatory and the area must be marked as a hearing protection zone."
+ },
+ {
+  "topic": "Noise exposure limit value",
+  "fact": "87 dB(A): must never be exceeded, even taking hearing protection into account",
+  "where": "4.4",
+  "quote": "The exposure limit value of 87 dB(A) must never be exceeded, even taking into account any hearing protection being worn"
+ },
+ {
+  "topic": "Hand-arm vibration values",
+  "fact": "EAV 2.5 m/s² A(8); ELV 5.0 m/s² A(8)",
+  "where": "4.4",
+  "quote": "has an exposure action value of 2.5 m/s² A(8) and an exposure limit value of 5.0 m/s² A(8)"
+ },
+ {
+  "topic": "Whole-body vibration values",
+  "fact": "EAV 0.5 m/s² A(8); ELV 1.15 m/s² A(8)",
+  "where": "4.4",
+  "quote": "an exposure action value of 0.5 m/s² A(8) and an exposure limit value of 1.15 m/s² A(8)"
+ },
+ {
+  "topic": "Welfare categories",
+  "fact": "Five categories (toilets, washing, water, rest, changing), scaled to the site",
+  "where": "5.1",
+  "quote": "Toilets, washing, water, rest, and a place to change — five categories, scaled to the site."
+ },
+ {
+  "topic": "CDM welfare schedule",
+  "fact": "Welfare facilities are set out in Schedule 2 of CDM 2015",
+  "where": "5.1",
+  "quote": "CDM 2015 sets out, in Schedule 2, the welfare facilities every construction site must provide"
+ },
+ {
+  "topic": "Work at height hierarchy",
+  "fact": "Three levels, in order: avoid, prevent, minimise",
+  "where": "7.1",
+  "quote": "The hierarchy is strict and sequential — avoid, then prevent, then minimise."
+ },
+ {
+  "topic": "Ladder angle (1 in 4 rule)",
+  "fact": "Base 1 unit out for every 4 units of working height — roughly 75 degrees",
+  "where": "7.2",
+  "quote": "the base sits one unit away from the wall for every four units of working height, which works out to roughly a 75-degree angle."
+ },
+ {
+  "topic": "Ladder 1 in 4 worked example",
+  "fact": "6 m working height: base 1.5 m from the wall",
+  "where": "7.2",
+  "quote": "a worker needing to reach a working height of 6 metres positions the ladder's base 1.5 metres from the wall"
+ },
+ {
+  "topic": "Points of contact on a ladder",
+  "fact": "Three: a hand and two feet",
+  "where": "7.2",
+  "quote": "Three points of contact — a hand and two feet — must be maintained while climbing."
+ },
+ {
+  "topic": "Ladder rest platforms",
+  "fact": "Ladder rising 9 m or more needs landing areas or rest platforms at suitable intervals",
+  "where": "7.2",
+  "quote": "Where a ladder rises 9 metres or more, landing areas or rest platforms are needed at suitable intervals."
+ },
+ {
+  "topic": "Ladder above landing",
+  "fact": "Ladder should rise at least 1 m above the landing",
+  "where": "Diagnostic Quick Test, Q10",
+  "quote": "A ladder should stand firmly and rise at least 1 m above the landing",
+  "ch": 7
+ },
+ {
+  "topic": "Scaffold inspection interval",
+  "fact": "Before first use, then at intervals not exceeding 7 days, plus after storms or substantial alteration",
+  "where": "7.3",
+  "quote": "then at intervals not exceeding 7 days for as long as it remains in place"
+ },
+ {
+  "topic": "Top guardrail height",
+  "fact": "At least 950 mm above the platform",
+  "where": "7.4",
+  "quote": "the top guardrail must be at least 950 millimetres above the platform"
+ },
+ {
+  "topic": "Intermediate guardrail gap",
+  "fact": "Gap to intermediate rail no more than 470 mm",
+  "where": "7.4",
+  "quote": "with the gap to any intermediate rail no more than 470 millimetres"
+ },
+ {
+  "topic": "Weight of soil",
+  "fact": "A cubic metre of soil can weigh well over 1.5 tonnes",
+  "where": "8.1",
+  "quote": "a cubic metre of soil can weigh well over 1.5 tonnes"
+ },
+ {
+  "topic": "Excavation inspection",
+  "fact": "At the start of every shift, and after any event affecting stability",
+  "where": "8.1",
+  "quote": "A competent person must inspect an excavation at the start of every shift, and again after any event"
+ },
+ {
+  "topic": "Confined space risks",
+  "fact": "Four main risks: oxygen deficiency/enrichment, toxic atmosphere, flammable atmosphere, engulfment",
+  "where": "8.3",
+  "quote": "Four main risks make confined spaces so dangerous: oxygen deficiency or enrichment, a toxic atmosphere, a flammable atmosphere, and engulfment"
+ },
+ {
+  "topic": "Site voltage",
+  "fact": "Most power tools run on 110V reduced low voltage rather than mains 230V",
+  "where": "8.5",
+  "quote": "Most power tools on UK construction sites run on 110V reduced low voltage rather than mains 230V"
+ },
+ {
+  "topic": "110V to earth",
+  "fact": "Centre-tapped earthed transformer: each live conductor around 55V to earth",
+  "where": "8.5",
+  "quote": "each live conductor is only around 55V to earth"
+ },
+ {
+  "topic": "Plug colour coding",
+  "fact": "110V yellow; 230V single-phase blue; 400V three-phase red",
+  "where": "8.5",
+  "quote": "110V plugs and connectors are yellow, 230V single-phase is blue, and 400V three-phase is red."
+ },
+ {
+  "topic": "Portable appliance testing",
+  "fact": "Formal testing commonly every three months on site",
+  "where": "8.5",
+  "quote": "formal portable appliance testing at set intervals, commonly every three months on site"
+ },
+ {
+  "topic": "Reversing deaths",
+  "fact": "Reversing involved in around a quarter of deaths linked to work vehicles",
+  "where": "9.2",
+  "quote": "it's involved in around a quarter of deaths linked to work vehicles"
+ },
+ {
+  "topic": "LOLER: general lifting equipment",
+  "fact": "Thorough examination every 12 months (unless a written scheme says otherwise)",
+  "where": "9.5",
+  "quote": "lifting equipment in general every 12 months"
+ },
+ {
+  "topic": "LOLER: people-lifting equipment and accessories",
+  "fact": "Thorough examination every 6 months (unless a written scheme says otherwise)",
+  "where": "9.5",
+  "quote": "equipment used to lift people, along with lifting accessories such as slings and chains, every 6 months"
+ },
+ {
+  "topic": "EPA duty of care",
+  "fact": "Section 34 of the Environmental Protection Act 1990: duty of care for waste produced",
+  "where": "10.1",
+  "quote": "Under section 34 of the Environmental Protection Act 1990, every construction company has a legal duty of care for the waste it produces"
+ },
+ {
+  "topic": "Waste code",
+  "fact": "Transfer note records the six-digit European Waste Catalogue code",
+  "where": "10.2",
+  "quote": "records the relevant six-digit European Waste Catalogue code"
+ },
+ {
+  "topic": "Bund capacity",
+  "fact": "At least 110% of the volume of the largest single container",
+  "where": "10.3",
+  "quote": "able to hold at least 110% of the volume of the largest single container stored within it"
+ },
+ {
+  "topic": "Bird breeding season",
+  "fact": "Main UK breeding season roughly March to August (varies; no fixed safe date)",
+  "where": "10.5",
+  "quote": "The main UK breeding season runs roughly from March to August"
+ }
+]

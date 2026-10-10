@@ -1,0 +1,387 @@
+[
+ {
+  "id": "dd1",
+  "type": "order",
+  "title": "Put the five steps of risk assessment in order",
+  "prompt": "Drag (or tap) each step into the order the book gives.",
+  "where": "2.1",
+  "items": [
+   "Identify the hazards",
+   "Decide who might be harmed and how",
+   "Evaluate the risks and decide on precautions",
+   "Record the findings and put them into practice",
+   "Review the assessment regularly, updating it when conditions change"
+  ],
+  "quotes": [
+   "HSE sets out five steps for carrying one out properly: identify the hazards; decide who might be harmed and how; evaluate the risks and decide on precautions; record the findings and put them into practice; and review the assessment regularly, updating it when conditions change.",
+   "The five steps are tested in order more often than you'd expect: Identify, Decide who's harmed, Evaluate and decide precautions, Record and implement, Review."
+  ]
+ },
+ {
+  "id": "dd2",
+  "type": "order",
+  "title": "Put the hierarchy of control in order",
+  "prompt": "Drag (or tap) each step into the right order, most effective first.",
+  "where": "2.4",
+  "items": [
+   "Eliminate the hazard",
+   "Substitute it with something less hazardous",
+   "Engineering controls (e.g. guardrails, barriers, extraction)",
+   "Administrative controls (e.g. training, signage, procedures, permits)",
+   "Personal protective equipment (PPE)"
+  ],
+  "quotes": [
+   "the hierarchy of control sets out the order in which control measures should be considered, from most to least effective: eliminate the hazard entirely wherever possible; substitute it with something less hazardous if elimination isn't possible;",
+   "use engineering controls — physical measures such as guardrails, barriers, or extraction systems — to isolate people from the hazard; apply administrative controls such as training, signage, procedures, and permits to work;",
+   "and only then rely on personal protective equipment (PPE) as the last line of defence.",
+   "E-S-E-C-P: Eliminate, Substitute, Engineering, Control (admin), PPE — from most to least effective."
+  ]
+ },
+ {
+  "id": "dd3",
+  "type": "order",
+  "title": "Put the Work at Height hierarchy in order",
+  "prompt": "Drag (or tap) each level into the order it must be worked through, first consideration first.",
+  "where": "7.1",
+  "items": [
+   "Avoid working at height altogether (e.g. do the task from ground level)",
+   "Prevent a fall (safe place of work or collective protection such as guardrails)",
+   "Minimise the distance and consequences of a fall (nets or soft-landing systems, then a harness)"
+  ],
+  "quotes": [
+   "The Work at Height Regulations 2005 set out a strict three-level hierarchy that must be worked through in order, not chosen freely.",
+   "First, avoid working at height altogether wherever it's reasonably practicable — doing a task from ground level instead.",
+   "Second, where it can't be avoided, prevent a fall from happening, using an existing safe place of work or collective protection such as guardrails before any personal equipment.",
+   "Third, where a fall still can't be ruled out, minimise its distance and consequences, using nets or soft-landing systems before a personal fall arrest harness as the last resort.",
+   "The hierarchy is strict and sequential — avoid, then prevent, then minimise."
+  ]
+ },
+ {
+  "id": "dd4",
+  "type": "order",
+  "title": "Put the waste hierarchy in order",
+  "prompt": "Drag (or tap) each option into order, most preferred first.",
+  "where": "10.1",
+  "items": [
+   "Prevent or reduce waste",
+   "Prepare items for reuse",
+   "Recycle or compost",
+   "Recover energy from waste",
+   "Dispose (typically landfill)"
+  ],
+  "quotes": [
+   "from most to least preferred: preventing or reducing waste in the first place, preparing items for reuse, recycling or composting, recovering energy from waste that can't be reused or recycled, and disposal — typically landfill — as the last resort.",
+   "Prevent, reuse, recycle, recover, dispose — in that order, every time."
+  ]
+ },
+ {
+  "id": "dd5",
+  "type": "order",
+  "title": "Put the fire evacuation steps in order",
+  "prompt": "Drag (or tap) each step into the order the book gives.",
+  "where": "3.5",
+  "items": [
+   "Alarm sounds: stop work immediately and put tools down",
+   "Go via the nearest safe, marked route to the designated assembly point",
+   "Supervisor or fire marshal carries out a head count against sign-in records",
+   "Re-enter only once officially cleared by the emergency services or site management"
+  ],
+  "quotes": [
+   "When the alarm sounds, work stops immediately — tools are put down, tasks are left unfinished, and everyone proceeds via the nearest safe, marked route to the site's designated assembly point.",
+   "At the assembly point, a supervisor or fire marshal carries out a head count against sign-in records, which is how the site confirms whether anyone is still inside and needs rescue.",
+   "No one re-enters the site until officially cleared by the emergency services or site management.",
+   "Alarm sounds, tools down, straight to the assembly point — no exceptions, no detours."
+  ]
+ },
+ {
+  "id": "dd6",
+  "type": "order",
+  "title": "Stop a ladder slipping: order of preference",
+  "prompt": "Drag (or tap) each method into the book's order of preference, most preferred first.",
+  "where": "7.2",
+  "items": [
+   "Tie both stiles to a secure point",
+   "Use a proprietary stability device",
+   "Wedge the base",
+   "Foot the ladder with another person (last resort)"
+  ],
+  "quotes": [
+   "A ladder must also be prevented from slipping, and the methods are used in a strict order of preference: tying both stiles to a secure point, using a proprietary stability device, wedging the base, and only footing the ladder with another person as a last resort when nothing else is practical."
+  ]
+ },
+ {
+  "id": "dd7",
+  "type": "match",
+  "title": "Match the HSE enforcement power to what it does",
+  "prompt": "Drag (or tap) each item on the left onto its matching description.",
+  "where": "1.1",
+  "pairs": [
+   {
+    "left": "Improvement Notice",
+    "right": "Gives a set period of time to fix the problem"
+   },
+   {
+    "left": "Prohibition Notice",
+    "right": "Stops a dangerous activity immediately"
+   },
+   {
+    "left": "Prosecution",
+    "right": "Can follow serious or repeated breaches, with no upper limit on the fine"
+   }
+  ],
+  "quotes": [
+   "they can issue an Improvement Notice, which gives a set period to fix a problem, or a Prohibition Notice, which stops a dangerous activity immediately.",
+   "Serious or repeated breaches can lead to prosecution, with no upper limit on the fine a court can impose.",
+   "Answer: An Improvement Notice allows a set period of time to fix the problem; a Prohibition Notice stops the dangerous activity immediately."
+  ]
+ },
+ {
+  "id": "dd8",
+  "type": "match",
+  "title": "Match the CDM 2015 duty holder to their role",
+  "prompt": "Drag (or tap) each item on the left onto its matching description.",
+  "where": "1.3",
+  "pairs": [
+   {
+    "left": "Client",
+    "right": "Commissions the work and must ensure suitable arrangements are in place"
+   },
+   {
+    "left": "Principal Designer",
+    "right": "Manages health and safety during the pre-construction (design) phase"
+   },
+   {
+    "left": "Principal Contractor",
+    "right": "Takes over health and safety once construction begins; required when more than one contractor is involved"
+   },
+   {
+    "left": "Individual contractors",
+    "right": "Manage the risks created by their own work"
+   }
+  ],
+  "quotes": [
+   "The Client commissions the work and must ensure suitable arrangements are in place.",
+   "The Principal Designer manages health and safety during the pre-construction (design) phase.",
+   "The Principal Contractor takes over responsibility for health and safety once construction begins, and is required whenever more than one contractor is involved on a project",
+   "Individual contractors remain responsible for managing the risks created by their own work."
+  ]
+ },
+ {
+  "id": "dd9",
+  "type": "match",
+  "title": "Match the RIDDOR category to its description",
+  "prompt": "Drag (or tap) each item on the left onto its matching description.",
+  "where": "3.1",
+  "pairs": [
+   {
+    "left": "Specified injury",
+    "right": "e.g. a fracture (not fingers, thumbs or toes) or amputation: report without delay, written report within 10 days"
+   },
+   {
+    "left": "Over-7-day injury",
+    "right": "Worker unable to do normal duties for more than 7 consecutive days: report within 15 days"
+   },
+   {
+    "left": "Dangerous occurrence",
+    "right": "A specified near-miss event, such as a scaffold collapse: report without delay"
+   },
+   {
+    "left": "Occupational disease",
+    "right": "Reported without delay once diagnosis is confirmed"
+   }
+  ],
+  "quotes": [
+   "Deaths and specified injuries — including fractures other than to fingers, thumbs, or toes, amputations, permanent loss of sight, and any injury requiring more than 24 hours in hospital — must be reported without delay, followed by a written report within 10 days.",
+   "Injuries that leave a worker unable to carry out their normal duties for more than 7 consecutive days must be reported within 15 days of the accident.",
+   "Dangerous occurrences — near-miss events specified in the regulations, such as a scaffold collapse — are also reported without delay, and diagnosed occupational diseases are reported without delay once diagnosis is confirmed."
+  ]
+ },
+ {
+  "id": "dd10",
+  "type": "match",
+  "title": "Match the fire extinguisher to its label colour",
+  "prompt": "Drag (or tap) each item on the left onto its matching description.",
+  "where": "3.4",
+  "pairs": [
+   {
+    "left": "Water",
+    "right": "Red"
+   },
+   {
+    "left": "Foam",
+    "right": "Cream"
+   },
+   {
+    "left": "CO2",
+    "right": "Black"
+   },
+   {
+    "left": "Dry Powder",
+    "right": "Blue"
+   },
+   {
+    "left": "Wet Chemical",
+    "right": "Yellow"
+   }
+  ],
+  "quotes": [
+   "Water             Red               Wood, paper, fabric (Class A)                            Electrical fires, flammable liquids",
+   "Foam              Cream             Class A plus flammable liquids (Class B)                 Electrical fires, cooking oil fires",
+   "CO2               Black             Electrical fires, flammable liquids                      Cooking oil fires, organic materials",
+   "Dry Powder        Blue              Class A, B, C, flammable gases, electrical up to 1000V   Cooking oil fires, electrical above 1000V, enclosed spaces",
+   "Wet Chemical      Yellow            Cooking oil and fat fires (Class F)                      Electrical fires, flammable gas or liquid fires"
+  ]
+ },
+ {
+  "id": "dd11",
+  "type": "match",
+  "title": "Match the fire extinguisher to the fires it is used on",
+  "prompt": "Drag (or tap) each item on the left onto its matching description.",
+  "where": "3.4",
+  "pairs": [
+   {
+    "left": "Water",
+    "right": "Wood, paper, fabric (Class A)"
+   },
+   {
+    "left": "Foam",
+    "right": "Class A plus flammable liquids (Class B)"
+   },
+   {
+    "left": "CO2",
+    "right": "Electrical fires, flammable liquids"
+   },
+   {
+    "left": "Dry Powder",
+    "right": "Class A, B, C, flammable gases, electrical up to 1000V"
+   },
+   {
+    "left": "Wet Chemical",
+    "right": "Cooking oil and fat fires (Class F)"
+   }
+  ],
+  "quotes": [
+   "Water             Red               Wood, paper, fabric (Class A)                            Electrical fires, flammable liquids",
+   "Foam              Cream             Class A plus flammable liquids (Class B)                 Electrical fires, cooking oil fires",
+   "CO2               Black             Electrical fires, flammable liquids                      Cooking oil fires, organic materials",
+   "Dry Powder        Blue              Class A, B, C, flammable gases, electrical up to 1000V   Cooking oil fires, electrical above 1000V, enclosed spaces",
+   "Wet Chemical      Yellow            Cooking oil and fat fires (Class F)                      Electrical fires, flammable gas or liquid fires"
+  ]
+ },
+ {
+  "id": "dd12",
+  "type": "match",
+  "title": "Match the safety sign category to its shape and colour",
+  "prompt": "Drag (or tap) each item on the left onto its matching description.",
+  "where": "6.5",
+  "pairs": [
+   {
+    "left": "Prohibition",
+    "right": "Circle: red border and diagonal line, white background, black symbol"
+   },
+   {
+    "left": "Warning",
+    "right": "Triangle: yellow background, black border and symbol"
+   },
+   {
+    "left": "Mandatory",
+    "right": "Circle: blue background, white symbol"
+   },
+   {
+    "left": "Safe condition",
+    "right": "Square / rectangle: green background, white symbol"
+   },
+   {
+    "left": "Fire equipment",
+    "right": "Square / rectangle: red background, white symbol"
+   }
+  ],
+  "quotes": [
+   "Prohibition       Circle               Red border and line, white background, black symbol   No smoking",
+   "Warning           Triangle             Yellow background, black border and symbol            Forklift trucks operating",
+   "Mandatory         Circle               Blue background, white symbol                         Wear eye protection",
+   "Safe condition    Square / rectangle   Green background, white symbol                        Emergency exit",
+   "Fire equipment    Square / rectangle   Red background, white symbol                          Fire extinguisher location",
+   "while a prohibition sign (red, forbidding something) always carries the diagonal line through the symbol."
+  ]
+ },
+ {
+  "id": "dd13",
+  "type": "match",
+  "title": "Match the noise level to what the law requires",
+  "prompt": "Drag (or tap) each item on the left onto its matching description.",
+  "where": "4.4",
+  "pairs": [
+   {
+    "left": "80 dB(A) — lower exposure action value",
+    "right": "Assess the risk; provide hearing protection if a worker requests it"
+   },
+   {
+    "left": "85 dB(A) — upper exposure action value",
+    "right": "Hearing protection mandatory; area marked as a hearing protection zone"
+   },
+   {
+    "left": "87 dB(A) — exposure limit value",
+    "right": "Must never be exceeded, even taking hearing protection into account"
+   }
+  ],
+  "quotes": [
+   "At the lower exposure action value of 80 dB(A), the employer must assess the risk and provide hearing protection if a worker requests it.",
+   "At the upper exposure action value of 85 dB(A), hearing protection becomes mandatory and the area must be marked as a hearing protection zone.",
+   "The exposure limit value of 87 dB(A) must never be exceeded, even taking into account any hearing protection being worn"
+  ]
+ },
+ {
+  "id": "dd14",
+  "type": "match",
+  "title": "Match the site supply voltage to its plug colour",
+  "prompt": "Drag (or tap) each item on the left onto its matching description.",
+  "where": "8.5",
+  "pairs": [
+   {
+    "left": "110V",
+    "right": "Yellow"
+   },
+   {
+    "left": "230V single-phase",
+    "right": "Blue"
+   },
+   {
+    "left": "400V three-phase",
+    "right": "Red"
+   }
+  ],
+  "quotes": [
+   "110V plugs and connectors are yellow, 230V single-phase is blue, and 400V three-phase is red."
+  ]
+ },
+ {
+  "id": "dd15",
+  "type": "match",
+  "title": "Match each TILE letter to what it covers",
+  "prompt": "Drag (or tap) each item on the left onto its matching description.",
+  "where": "4.5",
+  "pairs": [
+   {
+    "left": "Task",
+    "right": "The movement involved — twisting, reaching, repetition"
+   },
+   {
+    "left": "Individual",
+    "right": "The capability of the specific person doing the lift"
+   },
+   {
+    "left": "Load",
+    "right": "The weight, size, shape, and stability of the object"
+   },
+   {
+    "left": "Environment",
+    "right": "The space, flooring, lighting, and temperature"
+   }
+  ],
+  "quotes": [
+   "Task (the movement involved — twisting, reaching, repetition), Individual (the capability of the specific person doing the lift), Load (the weight, size, shape, and stability of the object, including whether its contents could shift),",
+   "and Environment (the space, flooring, lighting, and temperature the task is carried out in)."
+  ]
+ }
+]
