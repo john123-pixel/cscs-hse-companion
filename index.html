@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>CSCS HS&amp;E Companion</title>
+<meta name="description" content="Free digital companion to the book CSCS Health, Safety &amp; Environment Test Preparation 2026–2027.">
+<style>
+/* ================= Design tokens ================= */
+:root{
+  --ink:#262626; --ink-2:#4a4a4a; --muted:#6b6b6b; --line:#dcdfe4;
+  --bg:#f4f5f7; --surface:#ffffff; --surface-2:#eef2f8; --tint:#e7eef8;
+  --blue:#1F5FA8; --blue-ink:#ffffff; --blue-soft:#dbe7f5; --focus:#1F5FA8;
+  --danger:#a1271b; --danger-soft:#fbe9e7; --ok:#1d6b3a; --ok-soft:#e5f3ea;
+  --shadow:0 1px 2px rgba(0,0,0,.06),0 12px 32px rgba(0,0,0,.12);
+  --radius:14px; --font:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --fs:1rem;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ink:#eceef1; --ink-2:#c9ccd2; --muted:#9aa0a8; --line:#363b44;
+    --bg:#15171b; --surface:#1e2127; --surface-2:#252a32; --tint:#1d2a3b;
+    --blue:#6ea4e6; --blue-ink:#0d1520; --blue-soft:#1d2f47; --focus:#8fb9ee;
+    --danger:#f19a8e; --danger-soft:#3a1f1c; --ok:#7fd19c; --ok-soft:#1b3326;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 16px 40px rgba(0,0,0,.5);
+  }
+}
+:root[data-theme="dark"]{
+  --ink:#eceef1; --ink-2:#c9ccd2; --muted:#9aa0a8; --line:#363b44;
+  --bg:#15171b; --surface:#1e2127; --surface-2:#252a32; --tint:#1d2a3b;
+  --blue:#6ea4e6; --blue-ink:#0d1520; --blue-soft:#1d2f47; --focus:#8fb9ee;
+  --danger:#f19a8e; --danger-soft:#3a1f1c; --ok:#7fd19c; --ok-soft:#1b3326;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 16px 40px rgba(0,0,0,.5);
+}
+:root[data-contrast="high"]{ --ink:#000; --ink-2:#000; --muted:#222; --line:#000; --bg:#fff; --surface:#fff; --blue:#003f8a; --focus:#000 }
+:root[data-theme="dark"][data-contrast="high"]{ --ink:#fff; --ink-2:#fff; --muted:#eee; --line:#fff; --bg:#000; --surface:#000; --blue:#9fc7ff; --focus:#fff }
+*{box-sizing:border-box}
+html{font-size:calc(16px * var(--scale,1))}
+html,body{margin:0;height:100%}
+body{background:var(--bg);color:var(--ink);font:400 var(--fs)/1.55 var(--font);-webkit-font-smoothing:antialiased}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:6px}
+[hidden]{display:none!important}
+.sr{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* ================= Login ================= */
+#login{position:fixed;inset:0;display:grid;place-items:center;padding:max(16px,env(safe-area-inset-top)) max(16px,env(safe-area-inset-right)) max(16px,env(safe-area-inset-bottom)) max(16px,env(safe-area-inset-left));overflow:auto;background:#1b1e24}
+.slides{position:fixed;inset:0;overflow:hidden;perspective:1400px;background:linear-gradient(160deg,#2a3340,#14171c 70%)}
+.slide{position:absolute;inset:-4%;background-size:cover;background-position:center;opacity:0;will-change:transform,opacity,filter;backface-visibility:hidden}
+.slide.on{opacity:1}
+.shade{position:fixed;inset:0;pointer-events:none;background:linear-gradient(180deg,rgba(12,14,18,.55) 0%,rgba(12,14,18,.45) 40%,rgba(12,14,18,.78) 100%)}
+.login-card{position:relative;z-index:2;width:min(440px,100%);background:var(--surface);color:var(--ink);border-radius:18px;box-shadow:var(--shadow);padding:28px 24px 22px;margin:auto}
+.brand{display:flex;gap:12px;align-items:center;margin-bottom:14px}
+.mark{width:44px;height:44px;border-radius:10px;background:var(--blue);color:var(--blue-ink);display:grid;place-items:center;font-weight:800;font-size:13px;letter-spacing:.02em;flex:none}
+.brand small{display:block;color:var(--muted);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;font-weight:700}
+.brand strong{display:block;font-size:.95rem;line-height:1.3}
+.login-card h1{font-size:1.45rem;line-height:1.25;margin:6px 0 4px;letter-spacing:-.01em}
+.login-card .lede{margin:0 0 18px;color:var(--ink-2);font-size:.95rem}
+.field{margin-bottom:14px}
+.field label{display:block;font-weight:650;font-size:.9rem;margin-bottom:6px}
+.field .hint{font-size:.82rem;color:var(--muted);margin-top:5px}
+.input{width:100%;min-height:48px;border:1.5px solid var(--line);background:var(--surface);border-radius:10px;padding:10px 12px;font-size:1rem}
+.input:focus{border-color:var(--blue);outline:none;box-shadow:0 0 0 3px var(--blue-soft)}
+.input[aria-invalid="true"]{border-color:var(--danger)}
+.pw-wrap{position:relative}
+.pw-wrap .input{padding-right:84px}
+.pw-toggle{position:absolute;right:4px;top:4px;min-height:40px;min-width:72px;border:0;background:var(--surface-2);border-radius:8px;font-size:.85rem;font-weight:650}
+.check{display:flex;gap:10px;align-items:center;min-height:44px;font-size:.92rem;margin:2px 0 10px}
+.check input{width:22px;height:22px;accent-color:var(--blue)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 18px;border-radius:10px;border:1.5px solid var(--line);background:var(--surface);font-weight:650}
+.btn.primary{background:var(--blue);border-color:var(--blue);color:var(--blue-ink);width:100%}
+.btn.primary:hover{filter:brightness(1.06)}
+.error{display:flex;gap:10px;align-items:flex-start;background:var(--danger-soft);color:var(--danger);border-radius:10px;padding:10px 12px;font-size:.92rem;margin:0 0 12px}
+.error svg{flex:none;margin-top:2px}
+.fine{margin-top:16px;padding-top:14px;border-top:1px solid var(--line);font-size:.8rem;color:var(--muted);line-height:1.5}
+.fine p{margin:0 0 6px}
+.linkish{background:none;border:0;padding:0;color:var(--blue);text-decoration:underline;font-size:inherit;min-height:44px}
+.photo-credit{position:fixed;z-index:2;left:max(12px,env(safe-area-inset-left));bottom:max(12px,env(safe-area-inset-bottom));background:rgba(12,14,18,.72);color:#e8eaee;font-size:.75rem;padding:5px 10px;border-radius:999px}
+.corner{position:fixed;z-index:3;top:max(12px,env(safe-area-inset-top));right:max(12px,env(safe-area-inset-right));display:flex;gap:8px}
+.chip-btn{min-height:44px;min-width:44px;border-radius:999px;border:1px solid rgba(255,255,255,.35);background:rgba(12,14,18,.6);color:#fff;padding:0 14px;font-size:.85rem;font-weight:600}
+@media (max-width:600px){
+  #login{place-items:start center;padding-top:calc(max(12px,env(safe-area-inset-top)) + 56px)}
+  .photo-credit{display:none}
+}
+@media (max-width:480px){
+  .login-card{padding:22px 18px 18px;border-radius:16px}
+  .login-card h1{font-size:1.25rem}
+}
+
+/* ================= App shell (minimal for Phase 3) ================= */
+#app{min-height:100%;display:flex;flex-direction:column}
+.topbar{display:flex;align-items:center;gap:12px;padding:max(10px,env(safe-area-inset-top)) max(16px,env(safe-area-inset-right)) 10px max(16px,env(safe-area-inset-left));background:var(--surface);border-bottom:1px solid var(--line)}
+.topbar .mark{width:36px;height:36px;font-size:11px}
+.topbar .title{flex:1;min-width:0;font-weight:700;font-size:.98rem}
+.menu-btn{min-height:44px;min-width:44px;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+.menu{position:absolute;right:max(16px,env(safe-area-inset-right));top:calc(max(10px,env(safe-area-inset-top)) + 56px);background:var(--surface);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);min-width:220px;padding:6px;z-index:20}
+.menu button{display:block;width:100%;text-align:left;min-height:44px;border:0;background:none;padding:0 12px;border-radius:8px}
+.menu button:hover{background:var(--surface-2)}
+main{flex:1;width:100%;max-width:880px;margin:0 auto;padding:24px 16px calc(24px + env(safe-area-inset-bottom))}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:20px}
+.panel h2{margin:0 0 8px;font-size:1.3rem}
+.muted{color:var(--muted)}
+table.credits{width:100%;border-collapse:collapse;font-size:.9rem}
+table.credits th,table.credits td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+@media print{#login,.topbar,.menu{display:none!important}}
+</style>
+</head>
+<body>
+
+<!-- ================= LOGIN ================= -->
+<section id="login" aria-labelledby="login-title">
+  <div class="slides" id="slides" aria-hidden="true"></div>
+  <div class="shade" aria-hidden="true"></div>
+  <div class="corner">
+    <button class="chip-btn" id="themeBtnLogin" type="button" aria-label="Switch light or dark mode">Light / dark</button>
+  </div>
+
+  <form class="login-card" id="loginForm" novalidate>
+    <div class="brand">
+      <div class="mark" aria-hidden="true">HS&amp;E</div>
+      <div><small>Free bonus for book owners</small><strong>Digital companion</strong></div>
+    </div>
+    <h1 id="login-title">CSCS Health, Safety &amp; Environment Test Preparation 2026–2027</h1>
+    <p class="lede">Sign in to practise, revise and track your progress.</p>
+
+    <div class="error" id="loginError" role="alert" hidden>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 7v6M12 17h.01"/></svg>
+      <span id="loginErrorText"></span>
+    </div>
+
+    <div class="field">
+      <label for="nameInput">Your name</label>
+      <input class="input" id="nameInput" name="name" autocomplete="given-name" autocapitalize="words" spellcheck="false" required>
+      <div class="hint">Used for your greeting and certificate, and to keep your progress separate on a shared device.</div>
+    </div>
+    <div class="field">
+      <label for="pwInput">Password</label>
+      <div class="pw-wrap">
+        <input class="input" id="pwInput" name="password" type="password" autocomplete="current-password" autocapitalize="off" spellcheck="false" required aria-describedby="pwHint">
+        <button class="pw-toggle" id="pwToggle" type="button" aria-controls="pwInput" aria-pressed="false">Show</button>
+      </div>
+      <div class="hint" id="pwHint">The password is the publisher name printed in your book. Capital letters do not matter.</div>
+    </div>
+    <label class="check"><input type="checkbox" id="rememberInput" checked> Remember me on this device</label>
+    <button class="btn primary" type="submit">Sign in</button>
+
+    <div class="fine">
+      <p>Free digital companion for the book. Not affiliated with CITB or CSCS.</p>
+      <p>Independent study companion. Not published, endorsed or approved by CITB or CSCS. Contains no official test questions.</p>
+      <button class="linkish" type="button" id="creditsLink">Image credits</button>
+    </div>
+  </form>
+  <div class="photo-credit" id="photoCredit" aria-hidden="true" hidden></div>
+</section>
+
+<!-- ================= APP ================= -->
+<div id="app" hidden>
+  <header class="topbar">
+    <div class="mark" aria-hidden="true">HS&amp;E</div>
+    <div class="title">HS&amp;E Companion</div>
+    <button class="menu-btn" id="menuBtn" aria-haspopup="true" aria-expanded="false" aria-controls="menu"><span aria-hidden="true">☰</span><span class="sr">Menu</span></button>
+    <div class="menu" id="menu" role="menu" hidden>
+      <button role="menuitem" id="mHome">Home</button>
+      <button role="menuitem" id="mCredits">Image credits</button>
+      <button role="menuitem" id="mTheme">Light / dark mode</button>
+      <button role="menuitem" id="mSignOut">Sign out</button>
+    </div>
+  </header>
+  <main id="main" tabindex="-1"></main>
+</div>
+
+<script>
+"use strict";
+/* =====================================================================
+   SETTINGS — change these in one place (section 15 of the brief).
+   Exam length, question count and pass mark come from the book's
+   Introduction and MUST be confirmed against current CITB information
+   before launch.
+   ===================================================================== */
+const SETTINGS = {
+  appVersion: "0.3.0",
+  buildDate: "2026-10-10",
+  examMinutes: 45,          // book: "45 minutes long"  (unverified)
+  examQuestions: 50,        // book: "contains 50 questions" (unverified)
+  passMark: 45,             // book: "90% — 45 of the 50"   (unverified)
+  srIntervalsDays: [1, 2, 4, 8, 16],
+  readinessMinAnswered: 10,
+  mistakeExitStreak: 2,
+  slideshowSeconds: 18,
+  transitionMs: 2000,
+  reportEmail: "greyminsterpress.edu.co.uk@gmail.com",
+  // SHA-256 of the normalised password (lower case, trimmed, single spaces).
+  passwordHash: "78fe6927c4469ea898609b62145038e53e40e3e5a9ed5a0dddf9d38f3701ee05"
+};
+
+/* Login background images (Pexels Licence). Credits also shown in-app. */
+const LOGIN_IMAGES = [
+  {src:"images/login/login-1-site-walk.webp", alt:"Two site workers in hard hats, hi-vis vests and safety boots walking across an open groundworks site", credit:"Pexels contributor", link:"https://www.pexels.com/photo/8961259/"},
+  {src:"images/login/login-2-crane-scaffold.webp", alt:"A building under construction with full scaffolding and a tower crane", credit:"Pexels contributor", link:"https://www.pexels.com/photo/5505125/"},
+  {src:"images/login/login-3-ppe.webp", alt:"A worker holding a hard hat, safety glasses and work gloves, wearing a hi-vis vest", credit:"Kindel Media", link:"https://www.pexels.com/photo/8487733/"},
+  {src:"images/login/login-4-services.webp", alt:"Gloved hands aligning a yellow plastic gas pipe in a fusion-welding clamp", credit:"Pexels contributor", link:"https://www.pexels.com/photo/9389356/"},
+  {src:"images/login/login-5-protection.webp", alt:"A worker putting on ear defenders while wearing safety glasses", credit:"Mikhail Nilov", link:"https://www.pexels.com/photo/9242291/"}
+];
+
+/* ================= Small helpers ================= */
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const store = {
+  get(area, k){ try { return JSON.parse(window[area].getItem(k)); } catch(e){ return null; } },
+  set(area, k, v){ try { window[area].setItem(k, JSON.stringify(v)); return true; } catch(e){ return false; } },
+  del(area, k){ try { window[area].removeItem(k); } catch(e){} }
+};
+const reduceMotion = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
+const lowPower = () => (navigator.hardwareConcurrency && navigator.hardwareConcurrency <= 4) ||
+  (navigator.deviceMemory && navigator.deviceMemory <= 2) ||
+  (navigator.connection && navigator.connection.saveData);
+
+/* Pure-JS SHA-256 (works on file:// and http, where crypto.subtle may be missing) */
+function sha256(str){
+  const K=[0x428a2f98,0x71374491,0xb5c0fbcf,0xe9b5dba5,0x3956c25b,0x59f111f1,0x923f82a4,0xab1c5ed5,0xd807aa98,0x12835b01,0x243185be,0x550c7dc3,0x72be5d74,0x80deb1fe,0x9bdc06a7,0xc19bf174,0xe49b69c1,0xefbe4786,0x0fc19dc6,0x240ca1cc,0x2de92c6f,0x4a7484aa,0x5cb0a9dc,0x76f988da,0x983e5152,0xa831c66d,0xb00327c8,0xbf597fc7,0xc6e00bf3,0xd5a79147,0x06ca6351,0x14292967,0x27b70a85,0x2e1b2138,0x4d2c6dfc,0x53380d13,0x650a7354,0x766a0abb,0x81c2c92e,0x92722c85,0xa2bfe8a1,0xa81a664b,0xc24b8b70,0xc76c51a3,0xd192e819,0xd6990624,0xf40e3585,0x106aa070,0x19a4c116,0x1e376c08,0x2748774c,0x34b0bcb5,0x391c0cb3,0x4ed8aa4a,0x5b9cca4f,0x682e6ff3,0x748f82ee,0x78a5636f,0x84c87814,0x8cc70208,0x90befffa,0xa4506ceb,0xbef9a3f7,0xc67178f2];
+  const b=new TextEncoder().encode(str),l=b.length,n=((l+9+63)>>6)<<6,m=new Uint8Array(n);m.set(b);m[l]=0x80;
+  const dv=new DataView(m.buffer);dv.setUint32(n-4,l*8);dv.setUint32(n-8,Math.floor(l/0x20000000));
+  let H=[0x6a09e667,0xbb67ae85,0x3c6ef372,0xa54ff53a,0x510e527f,0x9b05688c,0x1f83d9ab,0x5be0cd19];
+  const w=new Uint32Array(64),ro=(x,y)=>(x>>>y)|(x<<(32-y));
+  for(let o=0;o<n;o+=64){
+    for(let t=0;t<16;t++)w[t]=dv.getUint32(o+t*4);
+    for(let t=16;t<64;t++){const s0=ro(w[t-15],7)^ro(w[t-15],18)^(w[t-15]>>>3),s1=ro(w[t-2],17)^ro(w[t-2],19)^(w[t-2]>>>10);w[t]=(w[t-16]+s0+w[t-7]+s1)>>>0;}
+    let [a,bb,c,d,e,f,g,h]=H;
+    for(let t=0;t<64;t++){
+      const t1=(h+(ro(e,6)^ro(e,11)^ro(e,25))+((e&f)^(~e&g))+K[t]+w[t])>>>0,t2=((ro(a,2)^ro(a,13)^ro(a,22))+((a&bb)^(a&c)^(bb&c)))>>>0;
+      h=g;g=f;f=e;e=(d+t1)>>>0;d=c;c=bb;bb=a;a=(t1+t2)>>>0;
+    }
+    H=H.map((x,k)=>(x+[a,bb,c,d,e,f,g,h][k])>>>0);
+  }
+  return H.map(x=>x.toString(16).padStart(8,"0")).join("");
+}
+
+/* ================= Theme ================= */
+const prefs = store.get("localStorage","hse.prefs") || {};
+function applyTheme(){ if(prefs.theme) document.documentElement.setAttribute("data-theme",prefs.theme); }
+function toggleTheme(){
+  const dark = prefs.theme ? prefs.theme==="dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+  prefs.theme = dark ? "light" : "dark"; applyTheme(); store.set("localStorage","hse.prefs",prefs);
+}
+applyTheme();
+
+/* ================= Session / login ================= */
+const normPw = s => s.normalize("NFC").trim().replace(/\s+/g," ").toLowerCase();
+const normName = s => s.normalize("NFC").trim().replace(/\s+/g," ");
+const profileKey = name => "hse.profile." + normName(name).toLowerCase();
+
+function currentSession(){
+  return store.get("sessionStorage","hse.session") || store.get("localStorage","hse.session");
+}
+function startSession(name, remember){
+  const s = {name: normName(name), at: Date.now()};
+  store.set("sessionStorage","hse.session",s);
+  if(remember) store.set("localStorage","hse.session",s); else store.del("localStorage","hse.session");
+  if(!store.get("localStorage",profileKey(name))) store.set("localStorage",profileKey(name),{name:s.name,created:Date.now()});
+}
+function signOut(){
+  store.del("sessionStorage","hse.session"); store.del("localStorage","hse.session");
+  showLogin();
+}
+
+function showError(msg, field){
+  $("loginErrorText").textContent = msg; $("loginError").hidden = false;
+  ["nameInput","pwInput"].forEach(id => $(id).setAttribute("aria-invalid", id===field ? "true" : "false"));
+  if(field) $(field).focus();
+}
+$("loginForm").addEventListener("submit", e => {
+  e.preventDefault();
+  const name = $("nameInput").value, pw = $("pwInput").value;
+  if(!normName(name)) return showError("Please enter your name.", "nameInput");
+  if(!pw.trim()) return showError("Please enter the password.", "pwInput");
+  if(sha256(normPw(pw)) !== SETTINGS.passwordHash)
+    return showError("That password was not recognised. Please use the publisher name printed in your book.", "pwInput");
+  $("loginError").hidden = true;
+  startSession(name, $("rememberInput").checked);
+  $("pwInput").value = "";
+  showApp();
+});
+$("pwToggle").addEventListener("click", () => {
+  const show = $("pwInput").type === "password";
+  $("pwInput").type = show ? "text" : "password";
+  $("pwToggle").textContent = show ? "Hide" : "Show";
+  $("pwToggle").setAttribute("aria-pressed", String(show));
+  $("pwToggle").setAttribute("aria-label", show ? "Hide password" : "Show password");
+});
+$("themeBtnLogin").addEventListener("click", toggleTheme);
+$("creditsLink").addEventListener("click", () => { showApp(true); });
+
+/* ================= Background slideshow ================= */
+const Slideshow = (() => {
+  const host = $("slides"); let layers = [], cur = -1, idx = 0, timer = null, ok = [];
+  const VARIANTS = ["crossfade","kenburns","parallax","blur","swing"];
+  let vi = 0;
+  function simpleOnly(){ return reduceMotion() || lowPower(); }
+  function preload(i){
+    return new Promise(res => {
+      if(ok[i] !== undefined) return res(ok[i]);
+      const im = new Image(); im.decoding = "async";
+      im.onload = () => { ok[i] = true; res(true); };
+      im.onerror = () => { ok[i] = false; res(false); };
+      im.src = LOGIN_IMAGES[i].src;
+    });
+  }
+  function nextGood(from){
+    for(let k=1;k<=LOGIN_IMAGES.length;k++){ const j=(from+k)%LOGIN_IMAGES.length; if(ok[j]!==false) return j; }
+    return -1;
+  }
+  function animateIn(el, out, variant, ms){
+    const ease = "cubic-bezier(.25,.6,.2,1)";
+    const opts = {duration: ms, easing: ease, fill: "forwards"};
+    const K = {
+      crossfade: [[{opacity:0},{opacity:1}], [{opacity:1},{opacity:0}]],
+      kenburns:  [[{opacity:0,transform:"scale(1.08)"},{opacity:1,transform:"scale(1)"}], [{opacity:1},{opacity:0}]],
+      parallax:  [[{opacity:0,transform:"translateX(5%)"},{opacity:1,transform:"translateX(0)"}], [{opacity:1,transform:"translateX(0)"},{opacity:0,transform:"translateX(-5%)"}]],
+      blur:      [[{opacity:0,filter:"blur(14px)"},{opacity:1,filter:"blur(0)"}], [{opacity:1,filter:"blur(0)"},{opacity:0,filter:"blur(14px)"}]],
+      swing:     [[{opacity:0,transform:"rotateY(-7deg) translateZ(-40px) scale(1.04)"},{opacity:1,transform:"none"}], [{opacity:1,transform:"none"},{opacity:0,transform:"rotateY(6deg) translateZ(-40px) scale(1.04)"}]]
+    }[variant];
+    if(el.animate){
+      el.animate(K[0], opts);
+      if(out) out.animate(K[1], opts);
+    }
+    el.classList.add("on"); if(out) setTimeout(()=>out.classList.remove("on"), ms);
+  }
+  async function show(i, first){
+    const good = await preload(i);
+    if(!good){ const j = nextGood(i); if(j<0 || j===i){ return; } return show(j, first); }
+    const el = document.createElement("div");
+    el.className = "slide"; el.style.backgroundImage = `url("${LOGIN_IMAGES[i].src}")`;
+    el.setAttribute("role","img"); el.setAttribute("aria-label", LOGIN_IMAGES[i].alt);
+    host.appendChild(el);
+    const out = layers[layers.length-1];
+    const variant = simpleOnly() ? "crossfade" : VARIANTS[vi++ % VARIANTS.length];
+    const ms = first ? (simpleOnly() ? 600 : 1200) : SETTINGS.transitionMs;
+    animateIn(el, out, variant, ms);
+    layers.push(el);
+    while(layers.length > 2){ layers.shift().remove(); }
+    cur = i; host.dataset.variant = variant; host.dataset.index = String(i);
+    const c = $("photoCredit"); c.hidden = false;
+    c.textContent = LOGIN_IMAGES[i].credit === "Pexels contributor" ? "Photo: Pexels" : `Photo: ${LOGIN_IMAGES[i].credit} / Pexels`;
+    preload(nextGood(i));          // preload the next one before it is needed
+  }
+  function start(){
+    stop(); if(!LOGIN_IMAGES.length) return;
+    show(cur < 0 ? 0 : cur, cur < 0);
+    timer = setInterval(() => { const j = nextGood(cur); if(j >= 0 && j !== cur) show(j); }, SETTINGS.slideshowSeconds * 1000);
+  }
+  function stop(){ clearInterval(timer); timer = null; }
+  document.addEventListener("visibilitychange", () => { if(!$("login").hidden){ document.hidden ? stop() : start(); } });
+  return {start, stop, next(){ const j = nextGood(cur); if(j >= 0) show(j); }, state(){ return {cur, variant: host.dataset.variant, ok: ok.slice()}; }};
+})();
+
+/* ================= App views (Phase 3: minimal) ================= */
+function showLogin(){
+  $("app").hidden = true; $("login").hidden = false; $("menu").hidden = true;
+  Slideshow.start(); setTimeout(() => $("nameInput").focus(), 50);
+}
+function showApp(creditsOnly){
+  Slideshow.stop(); $("login").hidden = true; $("app").hidden = false;
+  const s = currentSession();
+  $("menuBtn").hidden = !s;
+  if(creditsOnly && !s){ renderCredits(true); return; }
+  renderHome();
+}
+function renderHome(){
+  const s = currentSession();
+  $("main").innerHTML = `<div class="panel"><h2>Welcome, ${esc(s ? s.name : "")}</h2>
+    <p class="muted">You are signed in. The study features (exams, practice, flashcards, progress) are added in the next build phases.</p></div>`;
+}
+function renderCredits(fromLogin){
+  $("main").innerHTML = `<div class="panel"><h2>Image credits</h2>
+    <p class="muted">Login background photos are from Pexels and used under the Pexels Licence, which allows free commercial use. Question images are from the book.</p>
+    <table class="credits"><thead><tr><th>Image</th><th>Photographer</th><th>Source</th></tr></thead><tbody>
+    ${LOGIN_IMAGES.map(i=>`<tr><td>${esc(i.alt)}</td><td>${esc(i.credit)}</td><td><a href="${esc(i.link)}" target="_blank" rel="noopener">Pexels</a> (Pexels Licence)</td></tr>`).join("")}
+    </tbody></table>
+    ${fromLogin ? `<p><button class="btn" id="backToLogin">Back to sign in</button></p>` : ""}</div>`;
+  if(fromLogin) $("backToLogin").onclick = showLogin;
+}
+$("menuBtn").addEventListener("click", () => {
+  const open = $("menu").hidden; $("menu").hidden = !open; $("menuBtn").setAttribute("aria-expanded", String(open));
+  if(open) $("menu").querySelector("button").focus();
+});
+document.addEventListener("keydown", e => { if(e.key === "Escape" && !$("menu").hidden){ $("menu").hidden = true; $("menuBtn").setAttribute("aria-expanded","false"); $("menuBtn").focus(); } });
+const closeMenu = () => { $("menu").hidden = true; $("menuBtn").setAttribute("aria-expanded","false"); };
+$("mHome").onclick = () => { closeMenu(); renderHome(); };
+$("mCredits").onclick = () => { closeMenu(); renderCredits(false); };
+$("mTheme").onclick = () => { closeMenu(); toggleTheme(); };
+$("mSignOut").onclick = () => { closeMenu(); signOut(); };
+
+/* ================= Boot ================= */
+if(currentSession()) showApp(); else showLogin();
+</script>
+</body>
+</html>
