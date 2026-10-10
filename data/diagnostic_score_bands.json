@@ -1,0 +1,23 @@
+{
+ "source": "generated (no score-band page in the manuscript)",
+ "bands": [
+  {
+   "min": 14,
+   "max": 15,
+   "label": "Strong start",
+   "advice": "You scored at or above 90%, the pass standard the book describes. Move on to the full practice tests and revise any chapter listed below."
+  },
+  {
+   "min": 10,
+   "max": 13,
+   "label": "Good foundation",
+   "advice": "Revise the chapters listed below before you start the full practice tests."
+  },
+  {
+   "min": 0,
+   "max": 9,
+   "label": "Build your knowledge first",
+   "advice": "Work through the ten chapters in order, paying extra attention to those listed below, then take the diagnostic again."
+  }
+ ]
+}
